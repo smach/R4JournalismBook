@@ -9,7 +9,7 @@ if(!require("pacman")){
 }
 
 pacman::p_load("leaflet") 
-leaflet(starbucks) %>% 
+mymap <- leaflet(starbucks) %>% 
   addTiles() %>% 
   setView(-84.3847, 33.7613, zoom = 16) %>%
   addMarkers(data = starbucks, lat = ~ Latitude, lng = ~ Longitude, popup = starbucks$Name)
