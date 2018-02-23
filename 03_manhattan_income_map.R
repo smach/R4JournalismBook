@@ -1,11 +1,11 @@
 pacman::p_load("tmap")
 pacman::p_load("tmaptools")
 pacman::p_load("sf")
-load("data/Manhattan.Rda")
+download.file("data/Manhattan.Rda", "Manhattan.Rda")
 
 
 
-get_household_income_in_county <- function(countydatafile ="data/Manhattan.Rda"){
+get_household_income_in_county <- function(countydatafile ="Manhattan.Rda"){
   load(countydatafile)
   tmap_mode("view")
   
