@@ -5,7 +5,8 @@ load("data/Manhattan.Rda")
 
 
 
-get_household_income_in_county <- function(countydata = Manhattan){
+get_household_income_in_county <- function(countydatafile ="data/Manhattan.Rda"){
+  load(countydatafile)
   tmap_mode("view")
   
   mymap <- tm_shape(countydata) +
