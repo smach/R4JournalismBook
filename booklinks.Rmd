@@ -1,0 +1,18 @@
+---
+title: "Practical R for Mass Communications & Journalism Links"
+author: "Sharon Machlis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Chapter 3
+
+Run a remote script to make an interactive map: <br /> [https://raw.githubusercontent.com/smach/R4JournalismBook/master/03_map.R](https://raw.githubusercontent.com/smach/R4JournalismBook/master/03_map.R)
+
+Bonus map: Mapping income data: <br />
+[https://raw.githubusercontent.com/smach/R4JournalismBook/master/03_manhattan_income_map.R](https://raw.githubusercontent.com/smach/R4JournalismBook/master/03_manhattan_income_map.R)
+
+
