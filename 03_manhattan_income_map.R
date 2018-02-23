@@ -1,9 +1,9 @@
 pacman::p_load("tmap")
 pacman::p_load("tmaptools")
 pacman::p_load("sf")
-download.file("https://github.com/smach/R4JournalismBook/raw/master/data/Manhattan.Rds", "Manhattan.Rda")
 
-Manhattan <- readRDS("data/Manhattan.Rds")
+
+source("https://raw.githubusercontent.com/smach/R4JournalismBook/master/Manhattan.R")
 
 
 get_household_income_in_county <- function(countydata = Manhattan){
