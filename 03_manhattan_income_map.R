@@ -1,7 +1,7 @@
 pacman::p_load("tmap")
 pacman::p_load("tmaptools")
 pacman::p_load("sf")
-download.file("data/Manhattan.Rda", "Manhattan.Rda")
+download.file("https://github.com/smach/R4JournalismBook/blob/master/data/Manhattan.Rda", "Manhattan.Rda")
 
 
 
