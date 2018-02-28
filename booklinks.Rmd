@@ -15,4 +15,9 @@ Run a remote script to make an interactive map: <br /> [https://raw.githubuserco
 Bonus map: Mapping income data: <br />
 [https://raw.githubusercontent.com/smach/R4JournalismBook/master/03_manhattan_income_map.R](https://raw.githubusercontent.com/smach/R4JournalismBook/master/03_manhattan_income_map.R)
 
+## Chapter 4
+
+Boston snowfall data: <br />
+[https://raw.githubusercontent.com/smach/NICAR15data/master/BostonWinterSnowfalls.csv](https://raw.githubusercontent.com/smach/NICAR15data/master/BostonWinterSnowfalls.csv)
+
 
