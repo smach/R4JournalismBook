@@ -20,4 +20,7 @@ Bonus map: Mapping income data: <br />
 Boston snowfall data: <br />
 [https://raw.githubusercontent.com/smach/NICAR15data/master/BostonWinterSnowfalls.csv](https://raw.githubusercontent.com/smach/NICAR15data/master/BostonWinterSnowfalls.csv)
 
+Boston zip code file: <br />
+[https://raw.githubusercontent.com/smach/R4JournalismBook/master/data/bostonzips.txt](https://raw.githubusercontent.com/smach/R4JournalismBook/master/data/bostonzips.txt)
+
 
