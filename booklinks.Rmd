@@ -23,4 +23,8 @@ Boston snowfall data: <br />
 Boston zip code file: <br />
 [https://raw.githubusercontent.com/smach/R4JournalismBook/master/data/bostonzips.txt](https://raw.githubusercontent.com/smach/R4JournalismBook/master/data/bostonzips.txt)
 
+## Chapter 6
+Tian Zheng's R Colors PDF <br />
+[http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)
+
 
