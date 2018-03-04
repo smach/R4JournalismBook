@@ -34,6 +34,12 @@ Boston snowfall data: <br />
 Boston zip code file: <br />
 [https://raw.githubusercontent.com/smach/R4JournalismBook/master/data/bostonzips.txt](https://raw.githubusercontent.com/smach/R4JournalismBook/master/data/bostonzips.txt)
 
+## Chapter 5 
+
+### Additional resources
+
+The [dataMaid](https://github.com/ekstroem/dataMaid) package was designed to generate a printable PDF report for a data set. The report includes a statistical summary of a data frame by default, but it's also possible to add information such as where the data came from. Just be warned that generating PDFs within R can be complicated to set up, especially on Windows, requiring versions of TeX/LaTeX and pandoc to be on your local system. dataMaid's visualize() function doesn't require PDF-creating capabilities, though. Blog post with more dataMaid details: [http://sandsynligvis.dk/articles/18/codebook.html](http://sandsynligvis.dk/articles/18/codebook.html)
+
 ## Chapter 6
 Tian Zheng's R Colors PDF <br />
 [http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)
@@ -53,5 +59,16 @@ Tian Zheng's R Colors PDF <br />
 **Base R vs. ggplot2.** Two advanced R users talk about their respective viewpoints on why base R or ggplot2 is preferable. Maybe you'll be moved by one of their posts. See Why I don't use ggplot2 by Jeff Leek at Johns Hopkins University [http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/](http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/) and Why I use ggplot by Stack Overflow data scientist David Robinson at [http://varianceexplained.org/r/why-I-use-ggplot2/](http://varianceexplained.org/r/why-I-use-ggplot2/).
 
 **Formula-based version of ggplot2.** If you like ggplot2's capabilities but find the syntax uncomfortable, the ggformula package on CRAN might be worth exploring. As the package vignette explains, it uses the syntax `gf_plottype(formula, data = mydataframe)`.  gf_plottype options are gf_point(), gf_line(), gf_bar(), gf_boxplot(), etc.; while the formula can be something like `yvaluecol ~ xvaluecol`. Install, load, and read the package vignette `vignette("ggformula",package = "ggformula")`.
+
+## Chapter 7
+
+Airport delay data schema<br />
+[http://www.transtats.bts.gov/Fields.asp?table_id=236](http://www.transtats.bts.gov/Fields.asp?table_id=236)
+
+## Additional resources
+
+R educator Charlotte Wickham (Hadley's sister), who teaches statistics at Oregon State University, posted a tutorial on the purrr package at [https://github.com/cwickham/purrr-tutorial](https://github.com/cwickham/purrr-tutorial). Also see an accompanying video from the 2017 RStudio user conference at [https://www.rstudio.com/resources/videos/happy-r-users-purrr-tutorial/](https://www.rstudio.com/resources/videos/happy-r-users-purrr-tutorial/).
+
+RStudio's Jenny Bryan posted a [Why purrr?](https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html) explainer at [https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html](https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html).
 
 
