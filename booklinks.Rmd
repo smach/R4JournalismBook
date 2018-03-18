@@ -72,3 +72,15 @@ R educator Charlotte Wickham (Hadley's sister), who teaches statistics at Oregon
 RStudio's Jenny Bryan posted a [Why purrr?](https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html) explainer at [https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html](https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html).
 
 
+
+## Chapter 9
+
+## Additional Resources
+
+One example of a publication-quality graphic -- with code --  based on ggplot2 and geofacets: Bloomberg's visualization of enrollment in Affordable Care Act health insurance marketplaces (with some touch-ups in Adobe Illustrator). [https://www.bloomberg.com/graphics/health-insurance-marketplaces-for-2018/](https://www.bloomberg.com/graphics/health-insurance-marketplaces-for-2018/)
+
+Len Kiefer, deputy chief economist at Freddie Mac, has done a lot of visualizing federal housing and economic data in R. He's got some interesting ideas for faceting, such as a post on visualizing housing-price trends at [http://lenkiefer.com/2017/05/18/state-hpa](http://lenkiefer.com/2017/05/18/state-hpa). Kiefer's blog home page is [lenkiefer.com](http://lenkiefer.com).
+
+Emil Hvitfeldt has been keeping a large list of available color palettes in R. That's on GitHub at [https://github.com/EmilHvitfeldt/r-color-palettes](https://github.com/EmilHvitfeldt/r-color-palettes).
+
+geofacet package author Ryan Hafen wrote a blog post explaining the advantages of this dataviz type, see it at [http://ryanhafen.com/blog/geofacet](http://ryanhafen.com/blog/geofacet). The package Web site is at [https://hafen.github.io/geofacet/](https://hafen.github.io/geofacet/).
