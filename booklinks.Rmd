@@ -98,3 +98,23 @@ Hadley Wickham and his sister Charlotte Wickham have an interactive video course
 Hadley Wickham also has a free online book about how to create R packages, at [http://r-pkgs.had.co.nz/](http://r-pkgs.had.co.nz/).
 
 Finally, there are more compact ways to calculate "most recent Monday" than the examples I used in this chapter. This StackOverflow question has several options: [http://stackoverflow.com/questions/32763491/find-most-recent-monday-for-a-dataframe](http://stackoverflow.com/questions/32763491/find-most-recent-monday-for-a-dataframe).
+
+## Chapter 11
+
+Request a free U.S. Census Bureau API key at [Request a free key at [http://api.census.gov/data/key_signup.html](http://api.census.gov/data/key_signup.html).
+
+U.S. Census Bureau TIGER shapefiles: [https://www.census.gov/geo/maps-data/data/tiger-line.html](https://www.census.gov/geo/maps-data/data/tiger-line.html). 
+
+tigris package's GitHub repository:  [https://github.com/walkerke/tigris](https://github.com/walkerke/tigris)
+
+More info about the tidycensus package: [https://walkerke.github.io/tidycensus/](https://walkerke.github.io/tidycensus/)
+
+Compare US metropolitan area characteristics in R with tidycensus and tigris blog post: [https://walkerke.github.io/2017/06/comparing-metros/](https://walkerke.github.io/2017/06/comparing-metros/)
+
+Some other good sources of shapefiles in addition to the U.S. Census Bureau:
+
+* Global Administrative Areas [http://www.gadm.org/country](http://www.gadm.org/country) (which actually already has R SpatialPolygonsDataFrames as well as shapefiles)
+* Eurostat [http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data](http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data)
+* Statistics Canada [https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-eng.cfm](https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-eng.cfm)
+* Zillow for U.S. city neighborhood boundary maps at [https://www.zillow.com/howto/api/neighborhood-boundaries.htm](https://www.zillow.com/howto/api/neighborhood-boundaries.htm) (note the license restrictions requiring credit to Zillow).
+
