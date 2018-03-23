@@ -1,0 +1,56 @@
+{
+    "release": {
+        "id": "acs2015_5yr",
+        "name": "ACS 2015 5-year",
+        "years": "2011-2015"
+    },
+    "tables": {
+        "B02001": {
+            "title": "Race",
+            "universe": "Total Population",
+            "denominator_column_id": "B02001001",
+            "columns": {
+                "B02001001": {
+                    "name": "Total:",
+                    "indent": 0
+                },
+                "B02001002": {
+                    "name": "White alone",
+                    "indent": 1
+                },
+                "B02001003": {
+                    "name": "Black or African American alone",
+                    "indent": 1
+                },
+                "B02001004": {
+                    "name": "American Indian and Alaska Native alone",
+                    "indent": 1
+                },
+                "B02001005": {
+                    "name": "Asian alone",
+                    "indent": 1
+                },
+                "B02001006": {
+                    "name": "Native Hawaiian and Other Pacific Islander alone",
+                    "indent": 1
+                },
+                "B02001007": {
+                    "name": "Some other race alone",
+                    "indent": 1
+                },
+                "B02001008": {
+                    "name": "Two or more races:",
+                    "indent": 1
+                },
+                "B02001009": {
+                    "name": "Two races including Some other race",
+                    "indent": 2
+                },
+                "B02001010": {
+                    "name": "Two races excluding Some other race, and three or more races",
+                    "indent": 2
+                }
+            }
+        }
+    }
+}
