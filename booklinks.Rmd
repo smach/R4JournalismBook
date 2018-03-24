@@ -118,3 +118,35 @@ Some other good sources of shapefiles in addition to the U.S. Census Bureau:
 * Statistics Canada [https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-eng.cfm](https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-eng.cfm)
 * Zillow for U.S. city neighborhood boundary maps at [https://www.zillow.com/howto/api/neighborhood-boundaries.htm](https://www.zillow.com/howto/api/neighborhood-boundaries.htm) (note the license restrictions requiring credit to Zillow).
 
+Washington Post investigative reporting unit's GitHub R code repository for a story about ahow Jared Kushner and his partners used a program meant for high-unemployment areas to build a luxury skyscraper in Jersey City, N.J. [https://github.com/wpinvestigative/kushner_eb5_census](https://github.com/wpinvestigative/kushner_eb5_census).
+
+## Additional resources
+
+For more examples of using the tidycensus package for U.S. Census data, try Julia Silge's post Using tidycensus and leaflet to map Census data (https://juliasilge.com/blog/using-tidycensus/)[https://juliasilge.com/blog/using-tidycensus/].
+
+There are several other excellent mapping packages in R that you might want to investigate (I didn't have space to demo them all):
+
+**ggplot2** added support for simple features in 2017.For exploratory analysis, creating a choropleth map is as simple as `ggplot(simpleFeaturesObject) + geom_sf(fill = ColumnName)`.
+
+The **choroplethr** package, as the name implies, is designed to create choropleth maps. It was designed specifically to map U.S. Census data, but now handles importing shapefiles as well. [http://www.arilamstein.com/open-source/](http://www.arilamstein.com/open-source/). Creator Ari Lamstein offers a free online class on mapping Census data at his website [http://www.arilamstein.com/](http://www.arilamstein.com/). He also demos animated choropleths at [http://www.arilamstein.com/open-source/choroplethr/animated-choropleths/](http://www.arilamstein.com/open-source/choroplethr/animated-choropleths/).
+
+The **plotly** general data visualization R package also does mapping. You can see more info at [https://plot.ly/r/choropleth-maps/](https://plot.ly/r/choropleth-maps/). Note: As of this writing, plotly's ggplotly() function won't turn a ggplot2 map object creating with geom_sf() into an interactive map, but I remain hopeful this might happen sometime in the future.
+
+**ggmap** For more on using ggmap with ggplot2, see the GitHub repo at [https://github.com/dkahle/ggmap](https://github.com/dkahle/ggmap).
+
+For an excellent example of geospatial analysis and housing prices, I'd suggest the Urban Spatial blog's detailed examination of San Francisco Housing prices. It was done by Ken Steif, director of the Master of Urban Spatial Analysis program at the University of Pennsylvania, and then-Masters student Simon Kassel did a  sophisticated analysis of San Francisco housing prices by neighborhood in R. [http://urbanspatialanalysis.com/dataviz-tutorial-mapping-san-francisco-home-prices-using-r/](http://urbanspatialanalysis.com/dataviz-tutorial-mapping-san-francisco-home-prices-using-r/)
+
+Len Kiefer, Deputy Chief Economist at Freddie Mac, does a lot with mapping economic and housing data on his blog, such as the collection at [http://lenkiefer.com/2016/08/24/more-maps](http://lenkiefer.com/2016/08/24/more-maps).
+
+For technical details on mapping in general as well as in R:
+
+* 2-page primer on **projections and datums** from University of California, Berkeley's Geospatial Innovation Facility: [http://gif.berkeley.edu/documents/Projections_Datums.pdf](http://gif.berkeley.edu/documents/Projections_Datums.pdf).
+
+* Melanie Fraier's 4-page overview of **Coordinate Reference Systems in R**, which include datums and projections: [https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/OverviewCoordinateReferenceSystems.pdf). Frazier is a scientific programmer at the National Center for Ecological Analysis and Synthesis at University of California, Santa Barbara. She also has a ggmap Cheatsheet at [https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/ggmap/ggmapCheatsheet.pdf](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/ggmap/ggmapCheatsheet.pdf) and an R Meetup PowerPoint presentation on ggmap for download at [https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/ggmap/QuickPointMapping.pptx](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/ggmap/QuickPointMapping.pptx
+).
+
+* And finally, if you want a thorough technical understanding of mapping in R and the sf package, watch the two-part video tutorial "Spatial data in R: new directions" by Edzer Pebesma, lead author of the sf package, from the 2017 useR! conference. You should be able to find it on the Microsoft Channel 9 video site by searching at [bit.ly/RMappingVideo](bit.ly/RMappingVideo). 
+
+
+
+
