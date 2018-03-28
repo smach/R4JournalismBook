@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Chapter 2
 
-## Additional resources
+### Additional resources
 
 * **My Computerworld Beginner's Guide to R.** Available on the Computerworld website at [http://cwrld.us/IntroToR](http://cwrld.us/IntroToR) or as a PDF download at [http://cwrld.us/RGuidePDF](http://cwrld.us/RGuidePDF) (free registration required for the PDF).
 
@@ -65,7 +65,7 @@ Tian Zheng's R Colors PDF <br />
 Airport delay data schema<br />
 [http://www.transtats.bts.gov/Fields.asp?table_id=236](http://www.transtats.bts.gov/Fields.asp?table_id=236)
 
-## Additional resources
+### Additional resources
 
 R educator Charlotte Wickham (Hadley's sister), who teaches statistics at Oregon State University, posted a tutorial on the purrr package at [https://github.com/cwickham/purrr-tutorial](https://github.com/cwickham/purrr-tutorial). Also see an accompanying video from the 2017 RStudio user conference at [https://www.rstudio.com/resources/videos/happy-r-users-purrr-tutorial/](https://www.rstudio.com/resources/videos/happy-r-users-purrr-tutorial/).
 
@@ -75,7 +75,7 @@ RStudio's Jenny Bryan posted a [Why purrr?](https://jennybc.github.io/purrr-tuto
 
 ## Chapter 9
 
-## Additional Resources
+### Additional resources
 
 One example of a publication-quality graphic -- with code --  based on ggplot2 and geofacets: Bloomberg's visualization of enrollment in Affordable Care Act health insurance marketplaces (with some touch-ups in Adobe Illustrator). [https://www.bloomberg.com/graphics/health-insurance-marketplaces-for-2018/](https://www.bloomberg.com/graphics/health-insurance-marketplaces-for-2018/)
 
@@ -91,7 +91,7 @@ Hadley Wickham's chapter on tests in his R Packages book: [http://r-pkgs.had.co.
 
 Data analyst Hillary Parker's popular and easy-to-follow "Writing an R Package from Scratch": [https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
 
-## Additional Resources
+### Additional resources
 
 Hadley Wickham and his sister Charlotte Wickham have an interactive video course on DataCamp about writing functions: [https://www.datacamp.com/courses/writing-functions-in-r](https://www.datacamp.com/courses/writing-functions-in-r). The first part of the course is free, and covers a fair amount including scoping (understanding environments within and outside of a function). Access to the rest of the class requires a $29/month paid account.
 
@@ -120,7 +120,7 @@ Some other good sources of shapefiles in addition to the U.S. Census Bureau:
 
 Washington Post investigative reporting unit's GitHub R code repository for a story about ahow Jared Kushner and his partners used a program meant for high-unemployment areas to build a luxury skyscraper in Jersey City, N.J. [https://github.com/wpinvestigative/kushner_eb5_census](https://github.com/wpinvestigative/kushner_eb5_census).
 
-## Additional resources
+### Additional resources
 
 For more examples of using the tidycensus package for U.S. Census data, try Julia Silge's post Using tidycensus and leaflet to map Census data (https://juliasilge.com/blog/using-tidycensus/)[https://juliasilge.com/blog/using-tidycensus/].
 
@@ -146,6 +146,26 @@ For technical details on mapping in general as well as in R:
 ).
 
 * And finally, if you want a thorough technical understanding of mapping in R and the sf package, watch the two-part video tutorial "Spatial data in R: new directions" by Edzer Pebesma, lead author of the sf package, from the 2017 useR! conference. You should be able to find it on the Microsoft Channel 9 video site by searching at [bit.ly/RMappingVideo](bit.ly/RMappingVideo). 
+
+## Chapter 12
+
+See more about the taucharts R package at [http://rpubs.com/hrbrmstr/taucharts](http://rpubs.com/hrbrmstr/taucharts).
+
+Find out more about the highcharter R package at  [jkunst.com/highcharter](http://jkunst.com/highcharter/hchart.html). 
+
+More information about the metricsgraphics R package is available at the package's website, [http://hrbrmstr.github.io/metricsgraphics/](http://hrbrmstr.github.io/metricsgraphics/).
+
+To see other interactive R packages, check out the HTML widgets gallery at [http://gallery.htmlwidgets.org](http://gallery.htmlwidgets.org/).
+
+### Additional resources
+
+For analyzing and visualizing pre-election polling data in R, the pollstR package is an R client for the Huffington Post's Pollster API. This source has mostly data on U.S. contests, although it occasionally includes data from other major elections worldwide, such as the 2017 France presidential race.  [https://github.com/rOpenGov/pollstR](https://github.com/rOpenGov/pollstR)
+
+Heat maps can be an interesting way to visualize changes in results over time. Peter Aldhous, a science reporter with BuzzFeed News and investigative reporting instructor at the University of California Santa Cruz, posted materials from his National Institute for Computer-Assisted Reporting training session that includes creating a heat map with ggplot2. [http://paldhous.github.io/NICAR/2017/r-analysis.html](http://paldhous.github.io/NICAR/2017/r-analysis.html)
+
+My guide to Election Night resources for the 2016 election includes a link to compare forecasts with results, and how to use the pollstR package to pull data from the Huffington Post's Pollster API. [http://www.computerworld.com/article/3139884/data-analytics/r-resources-for-election-night.html](http://www.computerworld.com/article/3139884/data-analytics/r-resources-for-election-night.html)
+
+Kan Nishida has a more stats-heavy example of using R to analyze election results, using techniques such as K-means clustering to see which California counties are most similar to each other based on 2016 election results. [https://blog.exploratory.io/finding-similarities-among-california-counties-based-on-2016-election-result-with-dist-mds-and-83dd7cefd408](https://blog.exploratory.io/finding-similarities-among-california-counties-based-on-2016-election-result-with-dist-mds-and-83dd7cefd408) -- or, easier to read and type, [bit.ly/Rsimilarities](bit.ly/Rsimilarities).
 
 
 
