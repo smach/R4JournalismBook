@@ -7,8 +7,6 @@ output: html_document
 
 This searchable table includes most of the packages covered in my book Practical R for Mass Communication. You can search (and sort), either by function or package name. 
 
-Most of the listings include code samples.
-
 <center>
 <div style="width:60%;">
 ```{r echo=FALSE}
