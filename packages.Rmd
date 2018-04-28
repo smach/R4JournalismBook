@@ -1,0 +1,30 @@
+---
+title: "Packages"
+author: "by Sharon Machlis"
+
+output: html_document
+---
+
+This searchable table includes most of the packages covered in my book Practical R for Mass Communication. You can search (and sort), either by function or package name. 
+
+Most of the listings include code samples.
+
+<center>
+<div style="width:60%;">
+```{r echo=FALSE}
+
+# In order to knit this document, you need the following packages installed on your system: markdown, pacman, dplyr, readxl, and DT.
+
+mytabledata <- readxl::read_xlsx("packages.xlsx") 
+mytabledata <- dplyr::arrange(mytabledata, Package)
+pacman::p_load(DT)
+mytable <- DT::datatable(mytabledata, rownames = FALSE, options = list(
+pageLength = 75,
+  lengthMenu = c(50, 75, 100)
+)
+)
+
+mytable
+```
+</div>
+</center>
