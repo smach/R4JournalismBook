@@ -71,8 +71,6 @@ R educator Charlotte Wickham (Hadley's sister), who teaches statistics at Oregon
 
 RStudio's Jenny Bryan posted a [Why purrr?](https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html) explainer at [https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html](https://jennybc.github.io/purrr-tutorial/bk01_base-functions.html).
 
-
-
 ## Chapter 9
 
 ### Additional resources
@@ -168,6 +166,111 @@ My guide to Election Night resources for the 2016 election includes a link to co
 
 Kan Nishida has a more stats-heavy example of using R to analyze election results, using techniques such as K-means clustering to see which California counties are most similar to each other based on 2016 election results. [https://blog.exploratory.io/finding-similarities-among-california-counties-based-on-2016-election-result-with-dist-mds-and-83dd7cefd408](https://blog.exploratory.io/finding-similarities-among-california-counties-based-on-2016-election-result-with-dist-mds-and-83dd7cefd408) -- or, easier to read and type, [bit.ly/Rsimilarities](bit.ly/Rsimilarities).
 
+## Chapter 13
 
+### Inspiration
 
+The Stanford Open Policing Project collects data from states throughout the U.S. on police traffic stops. The project posted a tutorial on analyzing Connecticut data with R, including use of lubridate and dplyr, at [http://bit.ly/TrafficStopTutorial](http://bit.ly/TrafficStopTutorial).
 
+NY Times restaurant inspection interactive map:
+
+[http://www.nytimes.com/interactive/dining/new-york-health-department-restaurant-ratings-map.html](http://www.nytimes.com/interactive/dining/new-york-health-department-restaurant-ratings-map.html)
+
+### Additional resources
+
+Video lecture on dates in R by Dr. Roger Peng for a Coursera class [bit.ly/RDatesTimes](bit.ly/RDatesTimes).
+
+If you need to work with times alone, without dates attached, the tidyverse includes an hms package. See more at the package's GitHub repo: [https://github.com/tidyverse/hms](https://github.com/tidyverse/hms).
+
+## Chapter 14
+
+### Additional resource
+
+RStudio has a webinar on data wrangling at:
+
+[https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/](https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/).
+
+## Chapter 15
+
+### Additional resources
+
+RStudio's R Markdown Web site at [rmarkdown.rstudio.com](http://rmarkdown.rstudio.com) has a lot of information about creating and customizing documents, notebooks, slide presentations, dashboards with RStudio's flexdashboard package, and more.
+
+For examples of all the things you can do with R Markdown, check out RStudio's R Markdown gallery at [http://rmarkdown.rstudio.com/gallery.html](http://rmarkdown.rstudio.com/gallery.html).
+
+A video of Garret Grolemund's hour-long session from the 2017 RStudio conference, Getting Started with R Markdown, is available at [https://www.rstudio.com/resources/webinars/getting-started-with-r-markdown/](https://www.rstudio.com/resources/webinars/getting-started-with-r-markdown/). 
+
+Looking for some brief ideas of how to tweak an R Markdown doc? Check out Pimp my RMD: a few tips for R Markdown by data analyst Yan Holtz at [https://holtzy.github.io/Pimp-my-rmd/](https://holtzy.github.io/Pimp-my-rmd/).
+
+The University of Edinburgh's Coding Club posted an R Markdown tutorial on GitHub at [https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html).
+
+## Chapter 16
+
+### Additional resources
+
+The RStudio webinar **"Data Science Case Study"** with Mine Cetinkaya-Rundel includes some Web scraping of the La Quinta Web site to download their locations using SelectorGadget and rvest.
+
+Why La Quinta? To analyze data from the Mitch Hedberg joke that "la Quinta is Spanish for 'next to Denny's'." [https://www.rstudio.com/resources/webinars/data-science-case-study/](https://www.rstudio.com/resources/webinars/data-science-case-study/)
+
+**Charlotte Wickham's purrr tutorials** are extremely useful, easy to follow, and packed with helpful tips. A video of her 90-minute presentation at the UseR! conference in Brussels is available at Microsoft's Channel 9 [https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Solving-iteration-problems-with-purrr](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Solving-iteration-problems-with-purrr) (if you've got the paper version of this book, it might be easier to simply go to channel9.msdn.com and search for Solving iteration problems with purrr.)
+
+An earlier version from the 2017 RStudio conference, without video but with step-by-step slides and code, is on GitHub at [https://github.com/cwickham/purrr-tutorial](https://github.com/cwickham/purrr-tutorial/tree/v0.1)
+
+If you are a more advanced programmer and interested in using APIs with R, check out the httr package and httr quickstart guide vignette. In addition, Steph Locke has a short how-to at [https://itsalocke.com/blog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/](https://itsalocke.com/blog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/).
+
+## Chapter 17
+
+### Additional resources
+
+Gloria Lin and Jenny Bryan posted a **regular expressions tutorial** as part of a University of British Columbia Stats 545 course. It's available online at 
+[http://stat545.com/block022_regular-expression.html](http://stat545.com/block022_regular-expression.html).
+
+The **RegExplain RStudio addin** features a regex cheat sheet reference and an interactive regular-expression builder that shows you text matches as you work. There's a good explainer in the readme file at [https://github.com/gadenbuie/regexplain/#readme](https://github.com/gadenbuie/regexplain/#readme). (For general regex-building without R-specific quirks, [regex101.com](https://regex101.com)  is a useful site.)
+
+## Chapter 18
+
+## More functions, packages and tools worth a look
+
+**datapasta** - This package makes it easy to copy data into your clipboard and then generate R code to create a vector or data frame from that information. (Aside: What's not to like about a GitHub repo that starts off "On top of spaghetti, all covered in cheese....") See more from author Miles McBain at [https://github.com/MilesMcBain/datapasta](https://github.com/MilesMcBain/datapasta).
+
+The RStudio addin **Bare Combine** lets you select a string of comma-separated characters such as `New York, Boston, Chicago` and turn them into a properly quoted R vector `c("New York", "Boston", "Chicago")`. This requires RStudio. "'Bare Combine' is going to change my life," New York Times Ben Casselman tweeted after first reading about it (in my [Computerworld roundup of useful R functions](https://www.computerworld.com/article/3184778/data-analytics/6-useful-r-functions-you-might-not-know.html)). Bare Combine author Bob Rudis explains how it works as part of his hrbraddins package at [https://github.com/hrbrmstr/hrbraddins](https://github.com/hrbrmstr/hrbraddins).
+
+**echarts4r** is an R wrapper around the powerful and flexible echarts JavaScript library. Find out more at [http://echarts4r.john-coene.com](http://echarts4r.john-coene.com). Code for a scatterplot from the mayoral data in the previous chapter is in the echarts4r.R file in the repo.
+
+## Stories done with R
+
+"Huge increase in arrests of homeless in L.A. — but mostly for minor offenses", Los Angeles Times, February 4, 2017. Arrest data was analyzed with R, and the code is available at the LA Times' Data Desk GitHub repository: [https://github.com/datadesk/homeless-arrests-analysis](https://github.com/datadesk/homeless-arrests-analysis).
+
+"How the Cook County Assessor Failed Taxpayers", ProPublica, Dec. 7, 2017. Investigation of Cook County's"error-ridden commercial and industrial assessments". Story: [https://features.propublica.org/the-tax-divide/cook-county-commercial-and-industrial-property-tax-assessments/](https://features.propublica.org/the-tax-divide/cook-county-commercial-and-industrial-property-tax-assessments/). Code: [https://github.com/propublica/propertyassessments](https://github.com/propublica/propertyassessments).
+
+"Roger Federer: 20 Years, 20 Titles", SRF (Swiss Radio & TV), January 28, 2018. Detailed look at Federer's career. Story in English: [https://www.srf.ch/static/srf-data/data/2018/federer/en.html#/en/](https://www.srf.ch/static/srf-data/data/2018/federer/en.html#/en/). Methodology: [https://srfdata.github.io/2018-01-roger-federer/](https://srfdata.github.io/2018-01-roger-federer/)
+
+### Tutorials
+
+#### General
+
+R, RStudio, and the tidyverse for data analysis - Well documented, easy-to-follow beginner tutorial presented at the 2018 Investigative Reporters and Editors' Computer Assisted Reporting conference. By Peter Aldhous, BuzzFeed News. [http://paldhous.github.io/NICAR/2018/r-analysis.html](http://paldhous.github.io/NICAR/2018/r-analysis.html)
+
+File organization best practices: How to set up a reproducible workflow in R. Also presented at the 2018 CAR conference. By Andrew Tran, Washington Post. [https://andrewbtran.github.io/NICAR/2018/workflow/docs/01-workflow_intro.html](https://andrewbtran.github.io/NICAR/2018/workflow/docs/01-workflow_intro.html).
+
+R for Data Science - This book by Hadley Wickham will give you a good grounding in R fundamentals as you learn the basics of analyzing data in R. It's available online for free at  [http://r4ds.had.co.nz/](http://r4ds.had.co.nz/)
+
+A community launched around the book led by Jesse Maegan in 2017 and exploded in popularity the following year. You can find out about the Slack channel at [https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82). There's also a Twitter account ]\@R4DScommunity](https://twitter.com/R4DScommunity)
+
+Wickham recorded an informal, 20-minute video to show his start-to-finish workflow for initially exploring a data set, in this case U.S. building permits. The companion GitHub repo is at [https://github.com/hadley/building-permits](https://github.com/hadley/building-permits), which includes a link to the video.
+
+#### Misc
+
+If there's one task that almost everyone needs to do in R at one time or another, it's reorder bars on a graph. This tutorial tells you everything you need to know about using the tidyverse forcats package for reordering ggplot2 bar charts:   [https://github.com/jtr13/codehelp/blob/master/R/reorder.md](https://github.com/jtr13/codehelp/blob/master/R/reorder.md)
+
+#### Shiny Web framework
+
+It's possible to create fully featured Web applications using R, thanks to the Shiny Web framework. There's a lot of information about Shiny, including a number of tutorials, at [https://shiny.rstudio.com](https://shiny.rstudio.com).
+
+In addition, DataCamp is offering a free online class, including access to their R cloud platform, to learn interactive Web programming with Shiny. [https://www.datacamp.com/courses/building-web-applications-in-r-with-shiny](https://www.datacamp.com/courses/building-web-applications-in-r-with-shiny).
+
+#### Contact info
+
+If you've discovered an issue with code or other content in the book, I'm tracking them at the book's GitHub repository. You don't need to know git in order to open an issue; all you need is a browser and free GitHub account. Post an issue at [https://github.com/smach/R4JournalismBook/issues](https://github.com/smach/R4JournalismBook/issues).
+
+I'd love to hear from you on Twitter [\@sharon000](https://twitter.com/sharon000) or by email at r4journos at machlis.com.
