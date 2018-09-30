@@ -60,6 +60,8 @@ Tian Zheng's R Colors PDF <br />
 
 **Formula-based version of ggplot2.** If you like ggplot2's capabilities but find the syntax uncomfortable, the ggformula package on CRAN might be worth exploring. As the package vignette explains, it uses the syntax `gf_plottype(formula, data = mydataframe)`.  gf_plottype options are gf_point(), gf_line(), gf_bar(), gf_boxplot(), etc.; while the formula can be something like `yvaluecol ~ xvaluecol`. Install, load, and read the package vignette `vignette("ggformula",package = "ggformula")`.
 
+**equisse RStudio add-in.** This add-in offers a basic drag-and-drop interface for creating simple ggplot2 graphics, including generating and displaying the underlying R code. See more information at [https://github.com/dreamRs/esquisse](https://github.com/dreamRs/esquisse).
+
 ## Chapter 7
 
 Airport delay data schema<br />
