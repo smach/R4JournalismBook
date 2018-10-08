@@ -325,3 +325,11 @@ In addition, DataCamp is offering a free online class, including access to their
 If you've discovered an issue with code or other content in the book, I'm tracking them at the book's GitHub repository. You don't need to know git in order to open an issue; all you need is a browser and free GitHub account. Post an issue at [https://github.com/smach/R4JournalismBook/issues](https://github.com/smach/R4JournalismBook/issues).
 
 I'd love to hear from you on Twitter [\@sharon000](https://twitter.com/sharon000) or by email at r4journos at machlis.com.
+
+## Added after final manuscript was sent to the printer
+
+### Stories done with R
+
+"How the Suburbs Will Swing the Midterm Election" -- analysis of  Congressional District leanings based on population density, by David Montgomery and Richard Florida for CityLab. Includes interactive Shiny app. Story: [https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/](https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/). GitHub repo with R code and data: [https://github.com/theatlantic/citylab-data/tree/master/citylab-congress](https://github.com/theatlantic/citylab-data/tree/master/citylab-congress)
+
+
