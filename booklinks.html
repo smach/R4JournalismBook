@@ -385,17 +385,14 @@ $(document).ready(function () {
 <h2>Chapter 8</h2>
 <div id="additional-resources-6" class="section level3">
 <h3>Additional resources</h3>
-</div>
-</div>
-<div id="additional-resources-7" class="section level2">
-<h2>Additional resources</h2>
 <p>For more on using dplyr’s join functions, see the <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/two-table.html">two-table vignette</a> with <code>vignette(package = &quot;dplyr&quot;, topic = &quot;two-table&quot;)</code>. dplyr’s <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">introductory vignette</a> has good additional explanations for summarize(), mutate(), and group_by(). See it with <code>vignette(package = &quot;dplyr&quot;, topic = &quot;dplyr&quot;)</code>.</p>
 <p>There are other ways to summarize by group. Base R has an aggregate() function, the doBy package was designed for statistical calculations by groups, and the data.table package is extremely powerful and fast. I’ve settled on dplyr for this type of work because I find the syntax intuitive. Many journalists agree.</p>
 <p>Syntax, though, is a matter of personal preference. If you’d like to explore alternatives to dplyr, look at the aggregate() help page with <code>?aggregate</code>, the doBy introductory vignette at <a href="https://cran.r-project.org/web/packages/doBy/vignettes/doBy.pdf" class="uri">https://cran.r-project.org/web/packages/doBy/vignettes/doBy.pdf</a>, or the yhat blog post about summary stats with data.table at <a href="http://blog.yhat.com/posts/fast-summary-statistics-with-data-dot-table.html" class="uri">http://blog.yhat.com/posts/fast-summary-statistics-with-data-dot-table.html</a>.</p>
 </div>
+</div>
 <div id="chapter-9" class="section level2">
 <h2>Chapter 9</h2>
-<div id="additional-resources-8" class="section level3">
+<div id="additional-resources-7" class="section level3">
 <h3>Additional resources</h3>
 <p>One example of a publication-quality graphic – with code – based on ggplot2 and geofacets: Bloomberg’s visualization of enrollment in Affordable Care Act health insurance marketplaces (with some touch-ups in Adobe Illustrator). <a href="https://www.bloomberg.com/graphics/health-insurance-marketplaces-for-2018/" class="uri">https://www.bloomberg.com/graphics/health-insurance-marketplaces-for-2018/</a></p>
 <p>Len Kiefer, deputy chief economist at Freddie Mac, has done a lot of visualizing federal housing and economic data in R. He’s got some interesting ideas for faceting, such as a post on visualizing housing-price trends at <a href="http://lenkiefer.com/2017/05/18/state-hpa" class="uri">http://lenkiefer.com/2017/05/18/state-hpa</a>. Kiefer’s blog home page is <a href="http://lenkiefer.com">lenkiefer.com</a>.</p>
@@ -407,7 +404,7 @@ $(document).ready(function () {
 <h2>Chapter 10</h2>
 <p>Hadley Wickham’s chapter on tests in his R Packages book: <a href="http://r-pkgs.had.co.nz/tests.html" class="uri">http://r-pkgs.had.co.nz/tests.html</a></p>
 <p>Data analyst Hillary Parker’s popular and easy-to-follow “Writing an R Package from Scratch”: <a href="https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/" class="uri">https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/</a></p>
-<div id="additional-resources-9" class="section level3">
+<div id="additional-resources-8" class="section level3">
 <h3>Additional resources</h3>
 <p>Hadley Wickham and his sister Charlotte Wickham have an interactive video course on DataCamp about writing functions: <a href="https://www.datacamp.com/courses/writing-functions-in-r" class="uri">https://www.datacamp.com/courses/writing-functions-in-r</a>. The first part of the course is free, and covers a fair amount including scoping (understanding environments within and outside of a function). Access to the rest of the class requires a $29/month paid account.</p>
 <p>Hadley Wickham also has a free online book about how to create R packages, at <a href="http://r-pkgs.had.co.nz/" class="uri">http://r-pkgs.had.co.nz/</a>.</p>
@@ -430,7 +427,7 @@ $(document).ready(function () {
 <li>Zillow for U.S. city neighborhood boundary maps at <a href="https://www.zillow.com/howto/api/neighborhood-boundaries.htm" class="uri">https://www.zillow.com/howto/api/neighborhood-boundaries.htm</a> (note the license restrictions requiring credit to Zillow).</li>
 </ul>
 <p>Washington Post investigative reporting unit’s GitHub R code repository for a story about ahow Jared Kushner and his partners used a program meant for high-unemployment areas to build a luxury skyscraper in Jersey City, N.J. <a href="https://github.com/wpinvestigative/kushner_eb5_census" class="uri">https://github.com/wpinvestigative/kushner_eb5_census</a>.</p>
-<div id="additional-resources-10" class="section level3">
+<div id="additional-resources-9" class="section level3">
 <h3>Additional resources</h3>
 <p>For more examples of using the tidycensus package for U.S. Census data, try Julia Silge’s post, Using tidycensus and leaflet to map Census data <a href="https://juliasilge.com/blog/using-tidycensus/" class="uri">https://juliasilge.com/blog/using-tidycensus/</a>.</p>
 <p>And for more on using tmap, I wrote a tutorial for Computerworld at <a href="https://www.computerworld.com/article/3038270/data-analytics/create-maps-in-r-in-10-fairly-easy-steps.html" class="uri">https://www.computerworld.com/article/3038270/data-analytics/create-maps-in-r-in-10-fairly-easy-steps.html</a>. Zev Ross posted one at <a href="http://zevross.com/blog/2018/10/02/creating-beautiful-demographic-maps-in-r-with-the-tidycensus-and-tmap-packages/" class="uri">http://zevross.com/blog/2018/10/02/creating-beautiful-demographic-maps-in-r-with-the-tidycensus-and-tmap-packages/</a>. It includes the helpful tip that tm_shape() can re-project your data directly with the projection argument, such as tm_shape(my_sf, projection = “WGS84”). And, Thomas Lo Russo posted a nice how-to from a workshop he did with Max Grutter, <a href="https://tlorusso.github.io/geodata_workshop/tmap_package" class="uri">https://tlorusso.github.io/geodata_workshop/tmap_package</a>.</p>
@@ -456,7 +453,7 @@ $(document).ready(function () {
 <p>Find out more about the highcharter R package at <a href="http://jkunst.com/highcharter/hchart.html">jkunst.com/highcharter</a>.</p>
 <p>More information about the metricsgraphics R package is available at the package’s website, <a href="http://hrbrmstr.github.io/metricsgraphics/" class="uri">http://hrbrmstr.github.io/metricsgraphics/</a>.</p>
 <p>To see other interactive R packages, check out the HTML widgets gallery at <a href="http://gallery.htmlwidgets.org/">http://gallery.htmlwidgets.org</a>.</p>
-<div id="additional-resources-11" class="section level3">
+<div id="additional-resources-10" class="section level3">
 <h3>Additional resources</h3>
 <p>For analyzing and visualizing pre-election polling data in R, the pollstR package is an R client for the Huffington Post’s Pollster API. This source has mostly data on U.S. contests, although it occasionally includes data from other major elections worldwide, such as the 2017 France presidential race. <a href="https://github.com/rOpenGov/pollstR" class="uri">https://github.com/rOpenGov/pollstR</a></p>
 <p>Heat maps can be an interesting way to visualize changes in results over time. Peter Aldhous, a science reporter with BuzzFeed News and investigative reporting instructor at the University of California Santa Cruz, posted materials from his National Institute for Computer-Assisted Reporting training session that includes creating a heat map with ggplot2. <a href="http://paldhous.github.io/NICAR/2017/r-analysis.html" class="uri">http://paldhous.github.io/NICAR/2017/r-analysis.html</a></p>
@@ -473,7 +470,7 @@ $(document).ready(function () {
 <p>NY Times restaurant inspection interactive map:</p>
 <p><a href="http://www.nytimes.com/interactive/dining/new-york-health-department-restaurant-ratings-map.html" class="uri">http://www.nytimes.com/interactive/dining/new-york-health-department-restaurant-ratings-map.html</a></p>
 </div>
-<div id="additional-resources-12" class="section level3">
+<div id="additional-resources-11" class="section level3">
 <h3>Additional resources</h3>
 <p>Video lecture on dates in R by Dr. Roger Peng for a Coursera class <a href="bit.ly/RDatesTimes" class="uri">bit.ly/RDatesTimes</a>.</p>
 <p>If you need to work with times alone, without dates attached, the tidyverse includes an hms package. See more at the package’s GitHub repo: <a href="https://github.com/tidyverse/hms" class="uri">https://github.com/tidyverse/hms</a>.</p>
@@ -481,7 +478,7 @@ $(document).ready(function () {
 </div>
 <div id="chapter-14" class="section level2">
 <h2>Chapter 14</h2>
-<div id="additional-resources-13" class="section level3">
+<div id="additional-resources-12" class="section level3">
 <h3>Additional resources</h3>
 <p>RStudio has a webinar on data wrangling at:</p>
 <p><a href="https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/" class="uri">https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/</a>.</p>
@@ -490,7 +487,7 @@ $(document).ready(function () {
 </div>
 <div id="chapter-15" class="section level2">
 <h2>Chapter 15</h2>
-<div id="additional-resources-14" class="section level3">
+<div id="additional-resources-13" class="section level3">
 <h3>Additional resources</h3>
 <p>RStudio’s R Markdown Web site at <a href="http://rmarkdown.rstudio.com">rmarkdown.rstudio.com</a> has a lot of information about creating and customizing documents, notebooks, slide presentations, dashboards with RStudio’s flexdashboard package, and more.</p>
 <p>For examples of all the things you can do with R Markdown, check out RStudio’s R Markdown gallery at <a href="http://rmarkdown.rstudio.com/gallery.html" class="uri">http://rmarkdown.rstudio.com/gallery.html</a>.</p>
@@ -501,7 +498,7 @@ $(document).ready(function () {
 </div>
 <div id="chapter-16" class="section level2">
 <h2>Chapter 16</h2>
-<div id="additional-resources-15" class="section level3">
+<div id="additional-resources-14" class="section level3">
 <h3>Additional resources</h3>
 <p>The RStudio webinar <strong>“Data Science Case Study”</strong> with Mine Cetinkaya-Rundel includes some Web scraping of the La Quinta Web site to download their locations using SelectorGadget and rvest.</p>
 <p>Why La Quinta? To analyze data from the Mitch Hedberg joke that “la Quinta is Spanish for ‘next to Denny’s’.” <a href="https://www.rstudio.com/resources/webinars/data-science-case-study/" class="uri">https://www.rstudio.com/resources/webinars/data-science-case-study/</a></p>
@@ -512,7 +509,7 @@ $(document).ready(function () {
 </div>
 <div id="chapter-17" class="section level2">
 <h2>Chapter 17</h2>
-<div id="additional-resources-16" class="section level3">
+<div id="additional-resources-15" class="section level3">
 <h3>Additional resources</h3>
 <p>Gloria Lin and Jenny Bryan posted a <strong>regular expressions tutorial</strong> as part of a University of British Columbia Stats 545 course. It’s available online at <a href="http://stat545.com/block022_regular-expression.html" class="uri">http://stat545.com/block022_regular-expression.html</a>.</p>
 <p>The <strong>RegExplain RStudio addin</strong> features a regex cheat sheet reference and an interactive regular-expression builder that shows you text matches as you work. There’s a good explainer in the readme file at <a href="https://github.com/gadenbuie/regexplain/#readme" class="uri">https://github.com/gadenbuie/regexplain/#readme</a>. (For general regex-building without R-specific quirks, <a href="https://regex101.com">regex101.com</a> is a useful site.)</p>

@@ -100,8 +100,6 @@ RStudio's Jenny Bryan posted a [Why purrr?](https://jennybc.github.io/purrr-tuto
 
 ### Additional resources
 
-## Additional resources
-
 For more on using dplyr's join functions, see the [two-table vignette](https://cran.r-project.org/web/packages/dplyr/vignettes/two-table.html) with `vignette(package = "dplyr", topic = "two-table")`. dplyr's [introductory vignette](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html) has good additional explanations for summarize(), mutate(), and group_by(). See it with `vignette(package = "dplyr", topic = "dplyr")`.
 
 There are other ways to summarize by group. Base R has an aggregate() function, the doBy package was designed for statistical calculations by groups, and the data.table package is extremely powerful and fast. I've settled on dplyr for this type of work because I find the syntax intuitive. Many journalists agree. 
