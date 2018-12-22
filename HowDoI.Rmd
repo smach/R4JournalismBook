@@ -1,0 +1,26 @@
+---
+title: "How Do I? ..."
+author: "by Sharon Machlis"
+output:
+  html_document
+---
+
+I covered a lot of different tasks and tips in [Practical R for Mass Communication and Journalism](https://www.crcpress.com/Practical-R-for-Mass-Communication-and-Journalism/Machlis/p/book/9781138726918). You can search the table below to see most of them, as well as the chapter where they appeared. (If you haven't yet bought the book, you can [purchase it from publisher CRC Press](https://www.crcpress.com/Practical-R-for-Mass-Communication-and-Journalism/Machlis/p/book/9781138726918) or [Amazon].)
+
+Bonus: Most of the listings include code samples!
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+mytabledata <- readxl::read_xlsx("../../BookMarkdown/HowDoI.xlsx") 
+mytabledata <- dplyr::arrange(mytabledata, Task)
+pacman::p_load(DT)
+mytable <- DT::datatable(mytabledata, rownames = FALSE, options = list(
+pageLength = 50,
+  lengthMenu = c(50, 100, 200)
+)
+)
+
+mytable
+```
+
