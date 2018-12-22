@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.inner .a:link {
+color: white;
+}
+.inner a:visited {
+color: white;
+}
+inner a:hover {
+color: blue;
+}
