@@ -11,7 +11,7 @@ Additions and corrections for Practical R for Mass Communication and Journalism 
 
 ### 4.6 Easy sample data
 
-After submitting the manuscript to my publisher, Wikipedia changed the format of their list of U.S. cities. I suggest not trying the initial code in the section that tries to import from _https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population_. Instead, use a copy of the older file at [http://bit.ly/WikiCityList](http://bit.ly/WikiCityList). Instructions on how to do this are also in the chapter.
+After submitting the manuscript to my publisher, Wikipedia changed the format of their list of U.S. cities. I suggest not using code that tries to import a table from _https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population_. Instead, import from a copy of the older file I posted at [http://bit.ly/WikiCityList](http://bit.ly/WikiCityList). Instructions on how to do this are also in this section of the book.
 
 ## Chapter 17
 

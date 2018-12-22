@@ -331,3 +331,13 @@ I'd love to hear from you on Twitter [\@sharon000](https://twitter.com/sharon000
 "How safe are Maryland's bridges?" -- front-page story in the Baltimore Sun finds hundreds are in 'poor' condition, many are structurally deficient. Story: [http://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html](http://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html). GitHub repo with code and data: [https://github.com/baltimore-sun-data/bridge-data](https://github.com/baltimore-sun-data/bridge-data)
 
 "What new Census data reveal about wealth, diversity, and connectivity in Maryland" - analysis of American Community Survey Census data. Story: [https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html](https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html). GitHub repo with R code using tidycensus and censusapi packages: [https://github.com/baltimore-sun-data/census-data-analysis-2018](https://github.com/baltimore-sun-data/census-data-analysis-2018)
+
+### Tutorials
+
+**Text analysis**
+
+Text Mining With R -- Abbreviated free online version of the Text Mining with R book by Julia Silge and David Robinson, authors of the [tidytext R package](https://cran.r-project.org/web/packages/tidytext/index.html). [https://www.tidytextmining.com/](https://www.tidytextmining.com/)
+
+Text as Data - open-source version of a class offered by Chris Bail, professor of Sociology, Public Policy, And Data Science at Duke University. [https://cbail.github.io/textasdata/](https://cbail.github.io/textasdata/)
+
+
