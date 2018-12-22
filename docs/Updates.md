@@ -1,7 +1,6 @@
 ---
-title: "Additions and Eratta"
-author: "Sharon Machlis"
-output: html_document
+title: Additions and Eratta
+author: Sharon Machlis
 ---
 
 Additions and corrections for Practical R for Mass Communication and Journalism since publication in December 2018. To suggest an update or correction, please [open an issue in this book's GitHub repository](https://github.com/smach/R4JournalismBook/issues)
