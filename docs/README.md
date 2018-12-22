@@ -14,7 +14,7 @@ The GitHub repo at [https://github.com/smach/R4JournalismBook](https://github.co
 
 Also online, see a searchable chart of [tasks covered in the book](HowDoI.html), [functions covered](https://smach.github.io/R4JournalismBook/functions.html), and [packages](https://smach.github.io/R4JournalismBook/packages.html) used.
 
-See post-publication [updates and errata](https://github.com/smach/R4JournalismBook/Updates.html). Note: The best way to let me know about suggested updates and corrections is by [opening an issue in the book's GitHub repository](https://github.com/smach/R4JournalismBook/issues).
+See post-publication [updates and errata](https://smach.github.io/R4JournalismBook/Updates.html). Note: The best way to let me know about suggested updates and corrections is by [opening an issue in the book's GitHub repository](https://github.com/smach/R4JournalismBook/issues).
 
 Thanks for your interest!
 
