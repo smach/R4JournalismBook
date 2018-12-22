@@ -4,11 +4,15 @@
 @import "{{ site.theme }}";
 
 .navlinks a:link {
-color: white;
+  color: white;
 }
 .navlinks a:visited {
-color: white;
+  color: white;
 }
 navlinks a:hover {
-color: white;
+  color: white;
+}
+
+.navlinks p {
+  color: white;
 }
