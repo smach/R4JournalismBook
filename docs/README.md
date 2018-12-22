@@ -1,6 +1,6 @@
 ## Practical R for Mass Communications and Journalism
 
-Welcome to the GitHub repo for my forthcoming book, [Practical R for Mass Communications and Journalism](https://www.crcpress.com/Practical-R-for-Mass-Communication-and-Journalism/Machlis/p/book/9781138726918). Now available for pre-order from [CRC Press](https://www.crcpress.com/Practical-R-for-Mass-Communication-and-Journalism/Machlis/p/book/9781138726918) and [Amazon](https://www.amazon.com/Practical-Mass-Communication-Journalism-Chapman/dp/1138726915/)!
+Welcome to the GitHub repo for my book, [Practical R for Mass Communications and Journalism](https://www.crcpress.com/Practical-R-for-Mass-Communication-and-Journalism/Machlis/p/book/9781138726918). Now available from [CRC Press](https://www.crcpress.com/Practical-R-for-Mass-Communication-and-Journalism/Machlis/p/book/9781138726918) and [Amazon](https://www.amazon.com/Practical-Mass-Communication-Journalism-Chapman/dp/1138726915/)!
 
 You can read sample chapters at [http://www.machlis.com/R4Journalists/](http://www.machlis.com/R4Journalists/) including:
 
@@ -14,7 +14,7 @@ The GitHub repo at [https://github.com/smach/R4JournalismBook](https://github.co
 
 Also online, see a searchable chart of [tasks covered in the book](HowDoI.html), [functions covered](functions.html), and [packages](packages.html) used.
 
-After publication, any needed updates or errata will be posted here as well.
+See post-publication [updates and errata](Updates.html). Note: The best way to let me know about suggested updates and corrections is by [opening an issue in the book's GitHub repository](https://github.com/smach/R4JournalismBook/issues).
 
 Thanks for your interest!
 
