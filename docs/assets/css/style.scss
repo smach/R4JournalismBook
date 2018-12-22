@@ -3,12 +3,12 @@
 
 @import "{{ site.theme }}";
 
-.navlink .a:link {
+.navlinks a:link {
 color: white;
 }
-.navlink a:visited {
+.navlinks a:visited {
 color: white;
 }
-navlink a:hover {
+navlinks a:hover {
 color: white;
 }
