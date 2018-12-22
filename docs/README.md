@@ -1,5 +1,3 @@
-## Practical R for Mass Communications and Journalism
-
 Welcome to the GitHub repo for my book, [Practical R for Mass Communications and Journalism](https://www.crcpress.com/Practical-R-for-Mass-Communication-and-Journalism/Machlis/p/book/9781138726918). Now available from [CRC Press](https://www.crcpress.com/Practical-R-for-Mass-Communication-and-Journalism/Machlis/p/book/9781138726918) and [Amazon](https://www.amazon.com/Practical-Mass-Communication-Journalism-Chapman/dp/1138726915/)!
 
 You can read sample chapters at [http://www.machlis.com/R4Journalists/](http://www.machlis.com/R4Journalists/) including:
