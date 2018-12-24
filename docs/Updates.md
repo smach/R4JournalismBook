@@ -1,13 +1,6 @@
 ---
-title: "Updates"
-author: "Sharon Machlis"
-date: "12/22/2018"
-output: 
-  html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
-    keep_md: yes
+title: Updates
+author: Sharon Machlis
 ---
 
 
