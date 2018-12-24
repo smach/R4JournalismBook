@@ -1,7 +1,6 @@
 ---
 title: Links from the Book
 author: Sharon Machlis
-
 ---
 
 # Links from the Book
