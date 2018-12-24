@@ -7,6 +7,7 @@ output:
     toc: true
     toc_depth: 2
     toc_float: true
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -23,6 +24,8 @@ After submitting the manuscript to my publisher, Wikipedia changed the format of
 
 ## Chapter 17
 
+Resources of possible interest that are not included in the book, either to save space or they weren't available when I turned in my manuscript:
+
 ### 17.3 Tutorials
 
 **Text analysis**
@@ -30,8 +33,6 @@ After submitting the manuscript to my publisher, Wikipedia changed the format of
 Text Mining With R -- Abbreviated free online version of the Text Mining with R book by Julia Silge and David Robinson, authors of the [tidytext R package](https://cran.r-project.org/web/packages/tidytext/index.html). [https://www.tidytextmining.com/](https://www.tidytextmining.com/)
 
 Text as Data - open-source version of a class offered by Chris Bail, professor of Sociology, Public Policy, And Data Science at Duke University. [https://cbail.github.io/textasdata/](https://cbail.github.io/textasdata/)
-
-
 
 ### 17.5 More stories done with R
 
