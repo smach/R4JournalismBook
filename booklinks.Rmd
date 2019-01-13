@@ -84,6 +84,9 @@ Tian Zheng's R Colors PDF <br />
 
 **esquisse RStudio add-in.** This add-in offers a basic drag-and-drop interface for creating simple ggplot2 graphics, including generating and displaying the underlying R code. See more information at [https://github.com/dreamRs/esquisse](https://github.com/dreamRs/esquisse).
 
+#### Added after final manuscript was sent to the printer
+
+**paletter.** This package pulls together numerous other additional palettes for ggplot2 from dozens of other packages including dutchmasters, ggthemes, RolorBrewer, Redmonder, and viridis. Available on GitHub: [https://github.com/EmilHvitfeldt/paletteer](https://github.com/EmilHvitfeldt/paletteer).
 
 ## Chapter 7
 
@@ -335,6 +338,10 @@ I'd love to hear from you on Twitter [\@sharon000](https://twitter.com/sharon000
 "What new Census data reveal about wealth, diversity, and connectivity in Maryland" - analysis of American Community Survey Census data. Story: [https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html](https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html). GitHub repo with R code using tidycensus and censusapi packages: [https://github.com/baltimore-sun-data/census-data-analysis-2018](https://github.com/baltimore-sun-data/census-data-analysis-2018)
 
 ### Tutorials
+
+**General**
+
+R Programming at the Urban Institute -- This guide features useful explainers with examples and code for ggplot2 visualizations, maps, and code optimization as well as basics. [https://ui-research.github.io/r-at-urban/index.html](https://ui-research.github.io/r-at-urban/index.html)
 
 **Text analysis**
 

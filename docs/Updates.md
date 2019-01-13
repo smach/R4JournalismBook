@@ -4,7 +4,6 @@ author: Sharon Machlis
 ---
 
 
-
 Additions and corrections for Practical R for Mass Communication and Journalism since publication in December 2018. To suggest an update or correction, please [open an issue in this book's GitHub repository](https://github.com/smach/R4JournalismBook/issues)
 
 ## Chapter 4
@@ -13,11 +12,21 @@ Additions and corrections for Practical R for Mass Communication and Journalism 
 
 After submitting the manuscript to my publisher, Wikipedia changed the format of their list of U.S. cities. I suggest not using code that tries to import a table from _https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population_. Instead, import from a copy of the older file I posted at [http://bit.ly/WikiCityList](http://bit.ly/WikiCityList). Instructions on how to do this are also in this section of the book.
 
+## Chapter 6
+
+### Additional resources
+
+After the book was published, I discovered the paletteer package. It  pulls together numerous other additional palettes for ggplot2 from dozens of other packages including dutchmasters, ggthemes, RolorBrewer, Redmonder, and viridis. Available on GitHub: [https://github.com/EmilHvitfeldt/paletteer](https://github.com/EmilHvitfeldt/paletteer).
+
 ## Chapter 17
 
 Resources of possible interest that are not included in the book, either to save space or they weren't available when I turned in my manuscript:
 
 ### 17.3 Tutorials
+
+**General**
+
+R Programming at the Urban Institute -- This guide features useful explainers with examples and code for ggplot2 visualizations, maps, and code optimization as well as basics. [https://ui-research.github.io/r-at-urban/index.html](https://ui-research.github.io/r-at-urban/index.html)
 
 **Text analysis**
 
