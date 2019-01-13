@@ -1,5 +1,5 @@
 ---
-title: "Buy Practical R for Mass Communications and Journalism"
+title: "Buy Practical R for Mass Communication and Journalism"
 output: html_document
 ---
 
