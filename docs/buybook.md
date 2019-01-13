@@ -2,7 +2,7 @@
 title: "Buy Practical R for Mass Communication and Journalism"
 ---
 
-# Where to Buy Practical R for Mass Communication and  Journalism
+### Where you can buy Practical R for Mass Communication and Journalism:
 
 **[Amazon](https://www.amazon.com/Practical-Mass-Communication-Journalism-Chapman/dp/1138726915/)** <br /><br />
 **[Barnes & Noble](https://www.barnesandnoble.com/w/practical-r-for-mass-communication-and-journalism-sharon-machlis/1129214032?ean=9781138726918)** <br /><br />
