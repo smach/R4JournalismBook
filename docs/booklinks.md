@@ -85,6 +85,8 @@ Tian Zheng's R Colors PDF <br />
 
 **paletter.** This package pulls together numerous other additional palettes for ggplot2 from dozens of other packages including dutchmasters, ggthemes, RolorBrewer, Redmonder, and viridis. Available on GitHub: [https://github.com/EmilHvitfeldt/paletteer](https://github.com/EmilHvitfeldt/paletteer).
 
+**BBC Visual and Data Journalism Cookbook for R graphics.** Includes samples, code, and an R package for creating "BBC-style graphics" with ggplot1. [https://bbc.github.io/rcookbook/](https://bbc.github.io/rcookbook/).
+
 ## Chapter 7
 
 Airport delay data schema<br />
