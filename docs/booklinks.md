@@ -211,6 +211,8 @@ My guide to Election Night resources for the 2016 election includes a link to co
 
 Kan Nishida has a more stats-heavy example of using R to analyze election results, using techniques such as K-means clustering to see which California counties are most similar to each other based on 2016 election results. [bit.ly/Rsimilarities](https://bit.ly/Rsimilarities).
 
+After this book was published, Economist data journalist G. Elliott Morris released the [politicaldata package](https://github.com/elliottmorris/politicaldata) for analyzing U.S. political data in R. It's designed to make it "easier to explore polling, election results, demographic data and more," according to an explainer [Morris wrote in February, 2019](https://www.thecrosstab.com/project/politicaldata-package/). See it on GitHub: [https://github.com/elliottmorris/politicaldata](https://github.com/elliottmorris/politicaldata).
+
 ## Chapter 13
 
 ### Inspiration
