@@ -37,6 +37,8 @@ Resources of possible interest that are not included in the book, either to save
 
 R Programming at the Urban Institute -- This guide features useful explainers with examples and code for ggplot2 visualizations, maps, and code optimization as well as basics. [https://ui-research.github.io/r-at-urban/index.html](https://ui-research.github.io/r-at-urban/index.html)
 
+Videos from sessions at the 2019 RStudio conference: [https://resources.rstudio.com/rstudio-conf-2019](https://resources.rstudio.com/rstudio-conf-2019)
+
 **Text analysis**
 
 Text Mining With R -- Abbreviated free online version of the Text Mining with R book by Julia Silge and David Robinson, authors of the [tidytext R package](https://cran.r-project.org/web/packages/tidytext/index.html). [https://www.tidytextmining.com/](https://www.tidytextmining.com/)

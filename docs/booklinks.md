@@ -330,6 +330,8 @@ I'd love to hear from you on Twitter [\@sharon000](https://twitter.com/sharon000
 
 ## Added after final manuscript was sent to the printer
 
+Searchable table of 190+ R tasks covered in the book, from the print-edition appendix. With code! [https://smach.github.io/R4JournalismBook/HowDoI.html](https://smach.github.io/R4JournalismBook/HowDoI.html)
+
 ### Stories done with R
 
 "How the Suburbs Will Swing the Midterm Election" -- analysis of Congressional District leanings based on population density, by David Montgomery and Richard Florida for CityLab. Includes interactive Shiny app. Story: [https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/](https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/). GitHub repo with R code and data: [https://github.com/theatlantic/citylab-data/tree/master/citylab-congress](https://github.com/theatlantic/citylab-data/tree/master/citylab-congress)
@@ -343,6 +345,8 @@ I'd love to hear from you on Twitter [\@sharon000](https://twitter.com/sharon000
 **General**
 
 R Programming at the Urban Institute -- This guide features useful explainers with examples and code for ggplot2 visualizations, maps, and code optimization as well as basics. [https://ui-research.github.io/r-at-urban/index.html](https://ui-research.github.io/r-at-urban/index.html)
+
+Videos from sessions at the 2019 RStudio conference: [https://resources.rstudio.com/rstudio-conf-2019](https://resources.rstudio.com/rstudio-conf-2019)
 
 **Text analysis**
 
