@@ -20,6 +20,12 @@ After the book was published, I discovered the paletteer package. It  pulls toge
 
 Also after the book was published, the BBC's Visual and Data Journalism team posted an explainer on how they use ggplot2 to create charts for publication -- plus a "cookbook for R graphics" with code on "How to create BBC style graphics". Blog post: [https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535). Cookbook for BBC-style graphics using R: [https://bbc.github.io/rcookbook/](https://bbc.github.io/rcookbook/).
 
+## Chapter 11: Maps in R
+
+### Additional resources
+
+*Making thematic maps with R*. Step-by-step guide to making choropleth maps in R with the sf, tmap, leaflet, and gpplot packages, from a February 2019 workshop by researcher Maarten Hermans. [https://workshop.mhermans.net/thematic-maps-r/](https://workshop.mhermans.net/thematic-maps-r/)
+
 ## Chapter 12
 
 ### Additional resources
