@@ -24,7 +24,7 @@ Also after the book was published, the BBC's Visual and Data Journalism team pos
 
 ### Additional resources
 
-*Making thematic maps with R*. Step-by-step guide to making choropleth maps in R with the sf, tmap, leaflet, and gpplot packages, from a February 2019 workshop by researcher Maarten Hermans. [https://workshop.mhermans.net/thematic-maps-r/](https://workshop.mhermans.net/thematic-maps-r/)
+**Making thematic maps with R**. Step-by-step guide to making choropleth maps in R with the sf, tmap, leaflet, and gpplot packages, from a February 2019 workshop by researcher Maarten Hermans. [https://workshop.mhermans.net/thematic-maps-r/](https://workshop.mhermans.net/thematic-maps-r/)
 
 ## Chapter 12
 
@@ -59,3 +59,4 @@ Text as Data - open-source version of a class offered by Chris Bail, professor o
 
 "What new Census data reveal about wealth, diversity, and connectivity in Maryland" - analysis of American Community Survey Census data. Story: [https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html](https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html). GitHub repo with R code using tidycensus and censusapi packages: [https://github.com/baltimore-sun-data/census-data-analysis-2018](https://github.com/baltimore-sun-data/census-data-analysis-2018)
 
+_Last updated February 17, 2019_

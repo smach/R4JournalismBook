@@ -191,7 +191,7 @@ For technical details on mapping in general as well as in R:
 
 ### Added after book was published
 
-* *Making thematic maps with R*. Step-by-step guide to making choropleth maps in R with the sf, tmap, leaflet, and gpplot packages, from a February 2019 workshop by researcher Maarten Hermans. [https://workshop.mhermans.net/thematic-maps-r/](https://workshop.mhermans.net/thematic-maps-r/)
+* **Making thematic maps with R**. Step-by-step guide to making choropleth maps in R with the sf, tmap, leaflet, and gpplot packages, from a February 2019 workshop by researcher Maarten Hermans. [https://workshop.mhermans.net/thematic-maps-r/](https://workshop.mhermans.net/thematic-maps-r/)
 
 ## Chapter 12: Putting It All Together: R on Election Day
 
@@ -358,4 +358,4 @@ Text Mining With R -- Abbreviated free online version of the Text Mining with R 
 
 Text as Data - open-source version of a class offered by Chris Bail, professor of Sociology, Public Policy, And Data Science at Duke University. [https://cbail.github.io/textasdata/](https://cbail.github.io/textasdata/)
 
-
+_Last updated February 17, 2019_
