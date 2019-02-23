@@ -6,6 +6,18 @@ author: Sharon Machlis
 
 Additions and corrections for Practical R for Mass Communication and Journalism since publication in December 2018. To suggest an update or correction, please [open an issue in this book's GitHub repository](https://github.com/smach/R4JournalismBook/issues)
 
+## Chapter 3
+
+### 3.7 Comparing one city's data to the US median
+
+On page 21, this code:
+
+`usincome <- getSymbols("MHIUS00000A052NCEN", src="FRED")`
+
+Should be
+
+`usincome <- getSymbols("MHIUS00000A052NCEN", src="FRED", auto.assign=FALSE)`
+
 ## Chapter 4
 
 ### 4.6 Easy sample data
@@ -59,4 +71,4 @@ Text as Data - open-source version of a class offered by Chris Bail, professor o
 
 "What new Census data reveal about wealth, diversity, and connectivity in Maryland" - analysis of American Community Survey Census data. Story: [https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html](https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html). GitHub repo with R code using tidycensus and censusapi packages: [https://github.com/baltimore-sun-data/census-data-analysis-2018](https://github.com/baltimore-sun-data/census-data-analysis-2018)
 
-_Last updated February 17, 2019_
+_Last updated February 22, 2019_

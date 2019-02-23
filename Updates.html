@@ -1544,30 +1544,47 @@ div.tocify {
 
 
 <p>Additions and corrections for Practical R for Mass Communication and Journalism since publication in December 2018. To suggest an update or correction, please <a href="https://github.com/smach/R4JournalismBook/issues">open an issue in this book’s GitHub repository</a></p>
-<div id="chapter-4" class="section level2">
-<h2>Chapter 4</h2>
+<div id="chapter-3" class="section level2">
+<h2>Chapter 3</h2>
+<div id="comparing-one-citys-data-to-the-us-median" class="section level3">
+<h3>3.7 Comparing one city’s data to the US median</h3>
+<p>On page 21, this code:</p>
+<p><code>usincome &lt;- getSymbols(&quot;MHIUS00000A052NCEN&quot;, src=&quot;FRED&quot;)</code></p>
+<p>Should be</p>
+<p><code>usincome &lt;- getSymbols(&quot;MHIUS00000A052NCEN&quot;, src=&quot;FRED&quot;, auto.assign=FALSE)</code></p>
+</div>
+</div>
+<div id="chapter-4-import-data-into-r" class="section level2">
+<h2>Chapter 4: Import Data into R</h2>
 <div id="easy-sample-data" class="section level3">
 <h3>4.6 Easy sample data</h3>
 <p>After submitting the manuscript to my publisher, Wikipedia changed the format of their list of U.S. cities. I suggest not using code that tries to import a table from _<a href="https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population_" class="uri">https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population_</a>. Instead, import from a copy of the older file I posted at <a href="http://bit.ly/WikiCityList">http://bit.ly/WikiCityList</a>. Instructions on how to do this are also in this section of the book.</p>
 </div>
 </div>
-<div id="chapter-6" class="section level2">
-<h2>Chapter 6</h2>
+<div id="chapter-6-beginning-data-visualization" class="section level2">
+<h2>Chapter 6: Beginning Data Visualization</h2>
 <div id="additional-resources" class="section level3">
 <h3>Additional resources</h3>
 <p>After the book was published, I discovered the paletteer package. It pulls together numerous other additional palettes for ggplot2 from dozens of other packages including dutchmasters, ggthemes, RolorBrewer, Redmonder, and viridis. Available on GitHub: <a href="https://github.com/EmilHvitfeldt/paletteer">https://github.com/EmilHvitfeldt/paletteer</a>.</p>
 <p>Also after the book was published, the BBC’s Visual and Data Journalism team posted an explainer on how they use ggplot2 to create charts for publication – plus a “cookbook for R graphics” with code on “How to create BBC style graphics”. Blog post: <a href="https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535">https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535</a>. Cookbook for BBC-style graphics using R: <a href="https://bbc.github.io/rcookbook/">https://bbc.github.io/rcookbook/</a>.</p>
 </div>
 </div>
-<div id="chapter-12" class="section level2">
-<h2>Chapter 12</h2>
+<div id="chapter-11-maps-in-r" class="section level2">
+<h2>Chapter 11: Maps in R</h2>
 <div id="additional-resources-1" class="section level3">
+<h3>Additional resources</h3>
+<p><strong>Making thematic maps with R</strong>. Step-by-step guide to making choropleth maps in R with the sf, tmap, leaflet, and gpplot packages, from a February 2019 workshop by researcher Maarten Hermans. <a href="https://workshop.mhermans.net/thematic-maps-r/">https://workshop.mhermans.net/thematic-maps-r/</a></p>
+</div>
+</div>
+<div id="chapter-12-putting-it-all-together-r-on-election-day" class="section level2">
+<h2>Chapter 12: Putting It All Together: R on Election Day</h2>
+<div id="additional-resources-2" class="section level3">
 <h3>Additional resources</h3>
 <p>In February 2019, Economist data journalist G. Elliott Morris released the <a href="https://github.com/elliottmorris/politicaldata">politicaldata package</a> for analyzing U.S. political data in R. It’s designed to make it “easier to explore polling, election results, demographic data and more,” according to an explainer <a href="https://www.thecrosstab.com/project/politicaldata-package/">Morris wrote</a>, and it includes data on U.S. Congressional ideology ratings, Congressional Elections, polling results, and Gallup’s Most Important Problem questions. See it on GitHub: <a href="https://github.com/elliottmorris/politicaldata">https://github.com/elliottmorris/politicaldata</a>.</p>
 </div>
 </div>
-<div id="chapter-17" class="section level2">
-<h2>Chapter 17</h2>
+<div id="chapter-17-an-r-project-from-start-to-finish" class="section level2">
+<h2>Chapter 17: An R Project From Start to Finish</h2>
 <p>Resources of possible interest that are not included in the book, either to save space or they weren’t available when I turned in my manuscript:</p>
 <div id="tutorials" class="section level3">
 <h3>17.3 Tutorials</h3>
@@ -1580,9 +1597,10 @@ div.tocify {
 </div>
 <div id="more-stories-done-with-r" class="section level3">
 <h3>17.5 More stories done with R</h3>
-<p>â€œHow the Suburbs Will Swing the Midterm Electionâ€ â€“ analysis of Congressional District leanings based on population density, by David Montgomery and Richard Florida for CityLab. Includes interactive Shiny app. Story: <a href="https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/">https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/</a>. GitHub repo with R code and data: <a href="https://github.com/theatlantic/citylab-data/tree/master/citylab-congres">https://github.com/theatlantic/citylab-data/tree/master/citylab-congress</a></p>
-<p>â€œHow safe are Marylandâ€™s bridges?â€ â€“ front-page story in the Baltimore Sun finds hundreds are in â€˜poorâ€™ condition, many are structurally deficient. Story: <a href="http://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html">http://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html</a>. GitHub repo with code and data: <a href="https://github.com/baltimore-sun-data/bridge-data">https://github.com/baltimore-sun-data/bridge-data</a></p>
+<p>“How the Suburbs Will Swing the Midterm Election” – analysis of Congressional District leanings based on population density, by David Montgomery and Richard Florida for CityLab. Includes interactive Shiny app. Story: <a href="https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/">https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/</a>. GitHub repo with R code and data: <a href="https://github.com/theatlantic/citylab-data/tree/master/citylab-congres">https://github.com/theatlantic/citylab-data/tree/master/citylab-congress</a></p>
+<p>“How safe are Maryland’s bridges?” – front-page story in the Baltimore Sun finds hundreds are in ‘poor’ condition, many are structurally deficient. Story: <a href="http://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html">http://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html</a>. GitHub repo with code and data: <a href="https://github.com/baltimore-sun-data/bridge-data">https://github.com/baltimore-sun-data/bridge-data</a></p>
 <p>“What new Census data reveal about wealth, diversity, and connectivity in Maryland” - analysis of American Community Survey Census data. Story: <a href="https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html">https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html</a>. GitHub repo with R code using tidycensus and censusapi packages: <a href="https://github.com/baltimore-sun-data/census-data-analysis-2018">https://github.com/baltimore-sun-data/census-data-analysis-2018</a></p>
+<p><em>Last updated February 22, 2019</em></p>
 </div>
 </div>
 

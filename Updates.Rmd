@@ -16,6 +16,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Additions and corrections for Practical R for Mass Communication and Journalism since publication in December 2018. To suggest an update or correction, please [open an issue in this book's GitHub repository](https://github.com/smach/R4JournalismBook/issues)
 
+## Chapter 3
+
+### 3.7 Comparing one city's data to the US median
+
+On page 21, this code:
+
+`usincome <- getSymbols("MHIUS00000A052NCEN", src="FRED")`
+
+Should be
+
+`usincome <- getSymbols("MHIUS00000A052NCEN", src="FRED", auto.assign=FALSE)`
+
 ## Chapter 4: Import Data into R
 
 ### 4.6 Easy sample data
