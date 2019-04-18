@@ -130,6 +130,8 @@ Data analyst Hillary Parker's popular and easy-to-follow "Writing an R Package f
 
 Hadley Wickham and his sister Charlotte Wickham have an interactive video course on DataCamp about writing functions: [https://www.datacamp.com/courses/writing-functions-in-r](https://www.datacamp.com/courses/writing-functions-in-r). The first part of the course is free, and covers a fair amount including scoping (understanding environments within and outside of a function). Access to the rest of the class requires a $29/month paid account.
 
+_Update: DataCamp is currently embroiled in a controversy over how it has handled an executive's 'uninvited physical contact' with an employee. A number of organizations and individuals, including RStudio and Charlotte Wickham, have said they are cutting ties with DataCamp unless and until the company takes additional action. You can read more about this at [R community blasts DataCamp response to exec's 'inappropriate behavior'](https://www.computerworld.com/article/3389684/r-community-blasts-datacamp-response-to-execs-inappropriate-behavior.html)_
+
 Hadley Wickham also has a free online book about how to create R packages, at [http://r-pkgs.had.co.nz/](http://r-pkgs.had.co.nz/).
 
 For a quick look at code testing in action, see my screencast R tip: Test your code with testthat at [https://www.infoworld.com/video/87735/r-tip-test-your-code-with-testthat](https://www.infoworld.com/video/87735/r-tip-test-your-code-with-testthat). I also recorded a screencast showing how to use the case_when() function, at [https://www.infoworld.com/video/87435/r-tip-learn-dplyr-s-case-when-function](https://www.infoworld.com/video/87435/r-tip-learn-dplyr-s-case-when-function).
@@ -299,6 +301,20 @@ The RStudio addin **Bare Combine** lets you select a string of comma-separated c
 "How the Cook County Assessor Failed Taxpayers", ProPublica, Dec. 7, 2017. Investigation of Cook County's"error-ridden commercial and industrial assessments". Story: [https://features.propublica.org/the-tax-divide/cook-county-commercial-and-industrial-property-tax-assessments/](https://features.propublica.org/the-tax-divide/cook-county-commercial-and-industrial-property-tax-assessments/). Code: [https://github.com/propublica/propertyassessments](https://github.com/propublica/propertyassessments).
 
 "Roger Federer: 20 Years, 20 Titles", SRF (Swiss Radio & TV), January 28, 2018. Detailed look at Federer's career. Story in English: [https://www.srf.ch/static/srf-data/data/2018/federer/en.html#/en/](https://www.srf.ch/static/srf-data/data/2018/federer/en.html#/en/). Methodology: [https://srfdata.github.io/2018-01-roger-federer/](https://srfdata.github.io/2018-01-roger-federer/)
+
+"Denied Justice" - Star Tribune's series that highlighted  major problems with how Minnesota investigates and prosecutes rape cases, named a Pulitzer Prize finalist in local reporting. 
+
+MaryJo Webster, an experienced data journalist and Excel super power user, said this investigative project was her first major effort using R for all the analysis. 
+
+"R was the perfect choice for this because we had data rolling in gradually over many, many months," she told me on Slack. "I had to re-run the same analysis literally every single week for the better part of 8 months."
+
+No better statement on why it's useful to learn a scripting language!
+
+You can see the full series here:
+[http://www.startribune.com/deniedjustice](http://www.startribune.com/deniedjustice)
+
+And a results page she built using R Markdown here:
+[http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html](http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html)
 
 ### Tutorials
 

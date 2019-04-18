@@ -32,6 +32,11 @@ After the book was published, I discovered the paletteer package. It  pulls toge
 
 Also after the book was published, the BBC's Visual and Data Journalism team posted an explainer on how they use ggplot2 to create charts for publication -- plus a "cookbook for R graphics" with code on "How to create BBC style graphics". Blog post: [https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535). Cookbook for BBC-style graphics using R: [https://bbc.github.io/rcookbook/](https://bbc.github.io/rcookbook/).
 
+## Chapter 10: Write Your Own R Functions
+
+DataCamp is suggested as an additional resource. However, readers should know that DataCamp is currently embroiled in a controversy over how it has handled an executive's 'uninvited physical contact' with an employee. A number of organizations and individuals, including RStudio and Charlotte Wickham, have said they are cutting ties with DataCamp unless and until the company takes additional action. You can read more about this at [R community blasts DataCamp response to exec's 'inappropriate behavior'](https://www.computerworld.com/article/3389684/r-community-blasts-datacamp-response-to-execs-inappropriate-behavior.html)
+
+
 ## Chapter 11: Maps in R
 
 ### Additional resources
@@ -71,4 +76,18 @@ Text as Data - open-source version of a class offered by Chris Bail, professor o
 
 "What new Census data reveal about wealth, diversity, and connectivity in Maryland" - analysis of American Community Survey Census data. Story: [https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html](https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html). GitHub repo with R code using tidycensus and censusapi packages: [https://github.com/baltimore-sun-data/census-data-analysis-2018](https://github.com/baltimore-sun-data/census-data-analysis-2018)
 
-_Last updated February 22, 2019_
+"Denied Justice" - Star Tribune's series that highlighted  major problems with how Minnesota investigates and prosecutes rape cases, named a Pulitzer Prize finalist in local reporting. 
+
+MaryJo Webster, an experienced data journalist and Excel super power user, said this investigative project was her first major effort using R for all the analysis. 
+
+"R was the perfect choice for this because we had data rolling in gradually over many, many months," she told me on Slack. "I had to re-run the same analysis literally every single week for the better part of 8 months."
+
+No better statement on why it's useful to learn a scripting language!
+
+You can see the full series here:
+[http://www.startribune.com/deniedjustice](http://www.startribune.com/deniedjustice)
+
+And a results page she built using R Markdown here:
+[http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html](http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html)
+
+_Last updated April 17, 2019_
