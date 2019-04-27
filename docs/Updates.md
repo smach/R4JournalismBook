@@ -39,6 +39,8 @@ DataCamp is suggested as an additional resource. However, readers should know th
 
 ## Chapter 11: Maps in R
 
+In section 11.11, `ggmap::geocode()` no longer works without a Google Maps API key. That's due to a change in Google policy. Running `?register_google` in the R console gives information on how to obtain and register a key. While Google allows some free usage of its geocoding service, you will need to register a credit card in a Google account even if you don't exceed the free usage tier.
+
 ### Additional resources
 
 **Making thematic maps with R**. Step-by-step guide to making choropleth maps in R with the sf, tmap, leaflet, and gpplot packages, from a February 2019 workshop by researcher Maarten Hermans. [https://workshop.mhermans.net/thematic-maps-r/](https://workshop.mhermans.net/thematic-maps-r/)
@@ -90,4 +92,4 @@ You can see the full series here:
 And a results page she built using R Markdown here:
 [http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html](http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html)
 
-_Last updated April 17, 2019_
+_Last updated April 27, 2019_
