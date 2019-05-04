@@ -133,7 +133,7 @@ Data analyst Hillary Parker's popular and easy-to-follow "Writing an R Package f
 
 Hadley Wickham and his sister Charlotte Wickham have an interactive video course on DataCamp about writing functions: [https://www.datacamp.com/courses/writing-functions-in-r](https://www.datacamp.com/courses/writing-functions-in-r). The first part of the course is free, and covers a fair amount including scoping (understanding environments within and outside of a function). Access to the rest of the class requires a $29/month paid account.
 
-_Update: DataCamp is currently embroiled in a controversy over how it has handled an executive's 'uninvited physical contact' with an employee. A number of organizations and individuals, including RStudio and Charlotte Wickham, have said they are cutting ties with DataCamp unless and until the company takes additional action. You can read more about this at [R community blasts DataCamp response to exec's 'inappropriate behavior'](https://www.computerworld.com/article/3389684/r-community-blasts-datacamp-response-to-execs-inappropriate-behavior.html)_
+_Update: DataCamp has been embroiled in a controversy over how it has handled an executive's 'uninvited physical contact' with an employee. The latest: [DataCamp CEO steps down indefinitely in wake of 'inappropriate behavior'](DataCamp CEO steps down indefinitely in wake of 'inappropriate behavior')_
 
 Hadley Wickham also has a free online book about how to create R packages, at [http://r-pkgs.had.co.nz/](http://r-pkgs.had.co.nz/).
 

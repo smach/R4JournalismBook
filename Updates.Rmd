@@ -44,7 +44,7 @@ Also after the book was published, the BBC's Visual and Data Journalism team pos
 
 ## Chapter 10: Write Your Own R Functions
 
-DataCamp is suggested as an additional resource. However, readers should know that DataCamp is currently embroiled in a controversy over how it has handled an executive's 'uninvited physical contact' with an employee. A number of organizations and individuals, including RStudio and Charlotte Wickham, have said they are cutting ties with DataCamp unless and until the company takes additional action. You can read more about this at [R community blasts DataCamp response to exec's 'inappropriate behavior'](https://www.computerworld.com/article/3389684/r-community-blasts-datacamp-response-to-execs-inappropriate-behavior.html)
+DataCamp is suggested as an additional resource. However, readers may want to know that DataCamp has been embroiled in a controversy over how it has handled an executive's 'uninvited physical contact' with an employee. The latest: [DataCamp CEO steps down indefinitely in wake of 'inappropriate behavior'](DataCamp CEO steps down indefinitely in wake of 'inappropriate behavior')
 
 ## Chapter 11: Maps in R
 
