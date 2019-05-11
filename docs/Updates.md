@@ -8,6 +8,10 @@ Additions and corrections for Practical R for Mass Communication and Journalism 
 
 ## Chapter 3
 
+### 3.4 Download and graph a city's median income
+
+At the bottom of page 19, "The fifth line creates the graph, using the dygraph() function from the dygraphs package. The first argument, sfdata, tells dygraph what data set to graph." should read "The _third_ line creates the graph, using the dygraph() function from the dygraphs package. The first argument, _sfincome_, tells dygraph what data set to graph."
+
 ### 3.7 Comparing one city's data to the US median
 
 On page 21, this code:
@@ -92,4 +96,4 @@ You can see the full series here:
 And a results page she built using R Markdown here:
 [http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html](http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html)
 
-_Last updated May 3, 2019_
+_Last updated May 10, 2019_
