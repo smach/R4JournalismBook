@@ -58,6 +58,10 @@ The dataMaid package was designed to generate a printable PDF report for a data 
 
 The conflicted package will warn you if you try to use a function where there's more than one function with the same name loaded in your working session. Find out more at [https://github.com/r-lib/conflicted](https://github.com/r-lib/conflicted).
 
+#### Added after final manuscript was sent to the printer
+
+The DataExplorer R package will generate an HTML report about a data frame with a single line of code. Details: [https://boxuancui.github.io/DataExplorer/](https://boxuancui.github.io/DataExplorer/).
+
 ## Chapter 6: Beginning Data Visualization
 
 Tian Zheng's R Colors PDF <br />
@@ -86,6 +90,9 @@ Tian Zheng's R Colors PDF <br />
 **paletter.** This package pulls together numerous other additional palettes for ggplot2 from dozens of other packages including dutchmasters, ggthemes, RolorBrewer, Redmonder, and viridis. Available on GitHub: [https://github.com/EmilHvitfeldt/paletteer](https://github.com/EmilHvitfeldt/paletteer).
 
 **BBC Visual and Data Journalism Cookbook for R graphics.** Includes samples, code, and an R package for creating "BBC-style graphics" with ggplot2. [https://bbc.github.io/rcookbook/](https://bbc.github.io/rcookbook/).
+
+**From Data to Viz.** This site offers advice on what visualizations to use based on the type of data you have -- one numeric, two numeric, one numeric and one categorical, etc. -- and then gives you sample code _and_ "common caveats you should avoid." Extremely helpful for beginning and intermediate R users alike. [https://www.data-to-viz.com/](https://www.data-to-viz.com/).
+
 
 ## Chapter 7: Two or More Data Sets
 
@@ -374,4 +381,4 @@ Text Mining With R -- Abbreviated free online version of the Text Mining with R 
 
 Text as Data - open-source version of a class offered by Chris Bail, professor of Sociology, Public Policy, And Data Science at Duke University. [https://cbail.github.io/textasdata/](https://cbail.github.io/textasdata/)
 
-_Last updated February 17, 2019_
+_Last updated May 14, 2019_

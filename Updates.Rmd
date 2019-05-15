@@ -38,6 +38,12 @@ Should be
 
 After submitting the manuscript to my publisher, Wikipedia changed the format of their list of U.S. cities. I suggest not using code that tries to import a table from _https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population_. Instead, import from a copy of the older file I posted at [http://bit.ly/WikiCityList](http://bit.ly/WikiCityList). Instructions on how to do this are also in this section of the book.
 
+## Chapter 5: Basic Data Exploration
+
+### Additional resources
+
+Discovered after publication: The DataExplorer R package, which generates an HTML report about a data frame with a single line of code.  [https://boxuancui.github.io/DataExplorer/](https://boxuancui.github.io/DataExplorer/).
+
 ## Chapter 6: Beginning Data Visualization
 
 ### Additional resources
@@ -46,9 +52,11 @@ After the book was published, I discovered the paletteer package. It  pulls toge
 
 Also after the book was published, the BBC's Visual and Data Journalism team posted an explainer on how they use ggplot2 to create charts for publication -- plus a "cookbook for R graphics" with code on "How to create BBC style graphics". Blog post: [https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535). Cookbook for BBC-style graphics using R: [https://bbc.github.io/rcookbook/](https://bbc.github.io/rcookbook/).
 
+Another one that didn't make the book: From Data to Viz, a site that offers advice on what visualizations to use based on the type of data you have -- one numeric, two numeric, one numeric and one categorical, etc. In addition, it has sample code for dozens of visualizations _and_ "common caveats you should avoid." Extremely helpful for beginning and intermediate R users alike. [https://www.data-to-viz.com/](https://www.data-to-viz.com/).
+
 ## Chapter 10: Write Your Own R Functions
 
-DataCamp is suggested as an additional resource. However, readers may want to know that DataCamp has been embroiled in a controversy over how it has handled an executive's 'uninvited physical contact' with an employee. The latest: [DataCamp CEO steps down indefinitely in wake of 'inappropriate behavior'](DataCamp CEO steps down indefinitely in wake of 'inappropriate behavior')
+DataCamp is suggested as an additional resource. However, readers may want to know that DataCamp has been embroiled in a controversy over how it has handled an executive's 'uninvited physical contact' with an employee. The latest: [DataCamp CEO steps down indefinitely in wake of 'inappropriate behavior'](DataCamp CEO steps down indefinitely in wake of 'inappropriate behavior') and [A Multimillion-Dollar Startup Hid A Sexual Harassment Incident By Its CEO — Then A Community of Outsiders Dragged It Into the Light](https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup).
 
 ## Chapter 11: Maps in R
 

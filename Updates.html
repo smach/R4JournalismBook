@@ -1571,29 +1571,37 @@ div.tocify {
 <p>After submitting the manuscript to my publisher, Wikipedia changed the format of their list of U.S. cities. I suggest not using code that tries to import a table from _<a href="https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population_" class="uri">https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population_</a>. Instead, import from a copy of the older file I posted at <a href="http://bit.ly/WikiCityList">http://bit.ly/WikiCityList</a>. Instructions on how to do this are also in this section of the book.</p>
 </div>
 </div>
+<div id="chapter-5-basic-data-exploration" class="section level2">
+<h2>Chapter 5: Basic Data Exploration</h2>
+<div id="additional-resources" class="section level3">
+<h3>Additional resources</h3>
+<p>Discovered after publication: The DataExplorer R package, which generates an HTML report about a data frame with a single line of code. <a href="https://boxuancui.github.io/DataExplorer/">https://boxuancui.github.io/DataExplorer/</a>.</p>
+</div>
+</div>
 <div id="chapter-6-beginning-data-visualization" class="section level2">
 <h2>Chapter 6: Beginning Data Visualization</h2>
-<div id="additional-resources" class="section level3">
+<div id="additional-resources-1" class="section level3">
 <h3>Additional resources</h3>
 <p>After the book was published, I discovered the paletteer package. It pulls together numerous other additional palettes for ggplot2 from dozens of other packages including dutchmasters, ggthemes, RolorBrewer, Redmonder, and viridis. Available on GitHub: <a href="https://github.com/EmilHvitfeldt/paletteer">https://github.com/EmilHvitfeldt/paletteer</a>.</p>
 <p>Also after the book was published, the BBC’s Visual and Data Journalism team posted an explainer on how they use ggplot2 to create charts for publication – plus a “cookbook for R graphics” with code on “How to create BBC style graphics”. Blog post: <a href="https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535">https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535</a>. Cookbook for BBC-style graphics using R: <a href="https://bbc.github.io/rcookbook/">https://bbc.github.io/rcookbook/</a>.</p>
+<p>Another one that didn’t make the book: From Data to Viz, a site that offers advice on what visualizations to use based on the type of data you have – one numeric, two numeric, one numeric and one categorical, etc. In addition, it has sample code for dozens of visualizations <em>and</em> “common caveats you should avoid.” Extremely helpful for beginning and intermediate R users alike. <a href="https://www.data-to-viz.com/">https://www.data-to-viz.com/</a>.</p>
 </div>
 </div>
 <div id="chapter-10-write-your-own-r-functions" class="section level2">
 <h2>Chapter 10: Write Your Own R Functions</h2>
-<p>DataCamp is suggested as an additional resource. However, readers may want to know that DataCamp has been embroiled in a controversy over how it has handled an executive’s ‘uninvited physical contact’ with an employee. The latest: <a href="DataCamp%20CEO%20steps%20down%20indefinitely%20in%20wake%20of" title="inappropriate behavior">DataCamp CEO steps down indefinitely in wake of ‘inappropriate behavior’</a></p>
+<p>DataCamp is suggested as an additional resource. However, readers may want to know that DataCamp has been embroiled in a controversy over how it has handled an executive’s ‘uninvited physical contact’ with an employee. The latest: <a href="DataCamp%20CEO%20steps%20down%20indefinitely%20in%20wake%20of" title="inappropriate behavior">DataCamp CEO steps down indefinitely in wake of ‘inappropriate behavior’</a> and <a href="https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup">A Multimillion-Dollar Startup Hid A Sexual Harassment Incident By Its CEO â€” Then A Community of Outsiders Dragged It Into the Light</a>.</p>
 </div>
 <div id="chapter-11-maps-in-r" class="section level2">
 <h2>Chapter 11: Maps in R</h2>
 <p>In section 11.11, <code>ggmap::geocode()</code> no longer works without a Google Maps API key. That’s due to a change in Google policy. Running <code>?register_google</code> in the R console gives information on how to obtain and register a key. While Google allows some free usage of its geocoding service, you will need to register a credit card in a Google account even if you don’t exceed the free usage tier.</p>
-<div id="additional-resources-1" class="section level3">
+<div id="additional-resources-2" class="section level3">
 <h3>Additional resources</h3>
 <p><strong>Making thematic maps with R</strong>. Step-by-step guide to making choropleth maps in R with the sf, tmap, leaflet, and gpplot packages, from a February 2019 workshop by researcher Maarten Hermans. <a href="https://workshop.mhermans.net/thematic-maps-r/">https://workshop.mhermans.net/thematic-maps-r/</a></p>
 </div>
 </div>
 <div id="chapter-12-putting-it-all-together-r-on-election-day" class="section level2">
 <h2>Chapter 12: Putting It All Together: R on Election Day</h2>
-<div id="additional-resources-2" class="section level3">
+<div id="additional-resources-3" class="section level3">
 <h3>Additional resources</h3>
 <p>In February 2019, Economist data journalist G. Elliott Morris released the <a href="https://github.com/elliottmorris/politicaldata">politicaldata package</a> for analyzing U.S. political data in R. It’s designed to make it “easier to explore polling, election results, demographic data and more,” according to an explainer <a href="https://www.thecrosstab.com/project/politicaldata-package/">Morris wrote</a>, and it includes data on U.S. Congressional ideology ratings, Congressional Elections, polling results, and Gallup’s Most Important Problem questions. See it on GitHub: <a href="https://github.com/elliottmorris/politicaldata">https://github.com/elliottmorris/politicaldata</a>.</p>
 </div>
@@ -1621,7 +1629,7 @@ div.tocify {
 <p>No better statement on why it’s useful to learn a scripting language!</p>
 <p>You can see the full series here: <a href="http://www.startribune.com/deniedjustice">http://www.startribune.com/deniedjustice</a></p>
 <p>And a results page she built using R Markdown here: <a href="http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html">http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html</a></p>
-<p><em>Last updated May 10, 2019</em></p>
+<p><em>Last updated May 14, 2019</em></p>
 </div>
 </div>
 
