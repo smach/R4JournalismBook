@@ -104,4 +104,10 @@ You can see the full series here:
 And a results page she built using R Markdown here:
 [http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html](http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html)
 
-_Last updated May 14, 2019_
+**"LAPD searches blacks and Latinos more. But they’re less likely to have contraband than whites"** -- "A black person in a vehicle was more than four times as likely to be searched by police as a white person, and a Latino was three times as likely," according to the LA Times analysis. "Yet whites were found with drugs, weapons or other contraband in 20% of searches, compared with 17% for blacks and 16% for Latinos."
+
+Story: [https://www.latimes.com/local/lanow/la-me-lapd-searches-20190605-story.html](https://www.latimes.com/local/lanow/la-me-lapd-searches-20190605-story.html) 
+
+The GitHub repo for this analysis has both R and Python code, including scripts for data prep and a Jupyter notebook for some of the analysis. Notebook on GitHub:  [https://github.com/datadesk/ripa-analysis/blob/master/Threshold%20Test%20with%20Hierarchy.ipynb](https://github.com/datadesk/ripa-analysis/blob/master/Threshold%20Test%20with%20Hierarchy.ipyn)
+
+_Last updated November 10, 2019_
