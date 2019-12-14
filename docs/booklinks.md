@@ -301,13 +301,13 @@ The RStudio addin **Bare Combine** lets you select a string of comma-separated c
 
 **echarts4r** is an R wrapper around the powerful and flexible echarts JavaScript library. Find out more at [http://echarts4r.john-coene.com](http://echarts4r.john-coene.com). Code for a scatterplot from the mayoral data in the previous chapter is in the echarts4r.R file in the repo.
 
-### Stories done with R
+"Precinct closures harm voter turnout in Georgia, AJC analysis finds" -- statistical analysis shows a decline in voter turnout as voters' distance to their polling location increases. And a wave of precinct closings disproportionately affected people of color. By Mark Niesse and Nick Thieme. Story: [https://www.ajc.com/news/state--regional-govt--politics/precinct-closures-harm-voter-turnout-georgia-ajc-analysis-finds/11sVcLyQCHuQRC8qtZ6lYP/](https://www.ajc.com/news/state--regional-govt--politics/precinct-closures-harm-voter-turnout-georgia-ajc-analysis-finds/11sVcLyQCHuQRC8qtZ6lYP/). GitHub repo with R code and data: [https://github.com/nthieme/voter_deserts/blob/master/Voter_deserts_final.ipynb](https://githu.b.com/nthieme/voter_deserts/blob/master/Voter_deserts_final.ipynb)
 
-"Huge increase in arrests of homeless in L.A. — but mostly for minor offenses", Los Angeles Times, February 4, 2017. Arrest data was analyzed with R, and the code is available at the LA Times' Data Desk GitHub repository: [https://github.com/datadesk/homeless-arrests-analysis](https://github.com/datadesk/homeless-arrests-analysis).
+"How the Suburbs Will Swing the Midterm Election" -- analysis of Congressional District leanings based on population density, by David Montgomery and Richard Florida for CityLab. Includes interactive Shiny app. Story: [https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/](https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/). GitHub repo with R code and data: [https://github.com/theatlantic/citylab-data/tree/master/citylab-congress](https://github.com/theatlantic/citylab-data/tree/master/citylab-congress).
 
-"How the Cook County Assessor Failed Taxpayers", ProPublica, Dec. 7, 2017. Investigation of Cook County's"error-ridden commercial and industrial assessments". Story: [https://features.propublica.org/the-tax-divide/cook-county-commercial-and-industrial-property-tax-assessments/](https://features.propublica.org/the-tax-divide/cook-county-commercial-and-industrial-property-tax-assessments/). Code: [https://github.com/propublica/propertyassessments](https://github.com/propublica/propertyassessments).
+"How safe are Maryland's bridges?" -- front-page story in the Baltimore Sun finds hundreds are in 'poor' condition, many are structurally deficient. Story: [http://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html](http://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html). GitHub repo with code and data: [https://github.com/baltimore-sun-data/bridge-data](https://github.com/baltimore-sun-data/bridge-data).
 
-"Roger Federer: 20 Years, 20 Titles", SRF (Swiss Radio & TV), January 28, 2018. Detailed look at Federer's career. Story in English: [https://www.srf.ch/static/srf-data/data/2018/federer/en.html#/en/](https://www.srf.ch/static/srf-data/data/2018/federer/en.html#/en/). Methodology: [https://srfdata.github.io/2018-01-roger-federer/](https://srfdata.github.io/2018-01-roger-federer/)
+"What new Census data reveal about wealth, diversity, and connectivity in Maryland" - analysis of American Community Survey Census data. Story: [https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html](https://www.baltimoresun.com/news/maryland/bs-md-acs-census-release-20181206-story.html). GitHub repo with R code using tidycensus and censusapi packages: [https://github.com/baltimore-sun-data/census-data-analysis-2018](https://github.com/baltimore-sun-data/census-data-analysis-2018).
 
 "Denied Justice" - Star Tribune's series that highlighted  major problems with how Minnesota investigates and prosecutes rape cases, named a Pulitzer Prize finalist in local reporting. 
 
@@ -321,8 +321,7 @@ You can see the full series here:
 [http://www.startribune.com/deniedjustice](http://www.startribune.com/deniedjustice)
 
 And a results page she built using R Markdown here:
-[http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html](http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html)
-
+[http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html](http://strib-data-public.s3-us-west-1.amazonaws.com/projects/rape/highlights.html).
 ### Tutorials
 
 #### General
@@ -381,4 +380,4 @@ Text Mining With R -- Abbreviated free online version of the Text Mining with R 
 
 Text as Data - open-source version of a class offered by Chris Bail, professor of Sociology, Public Policy, And Data Science at Duke University. [https://cbail.github.io/textasdata/](https://cbail.github.io/textasdata/)
 
-_Last updated May 14, 2019_
+_Last updated December 14, 2019_

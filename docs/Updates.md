@@ -84,6 +84,8 @@ Text as Data - open-source version of a class offered by Chris Bail, professor o
 
 ### 17.5 More stories done with R
 
+"Precinct closures harm voter turnout in Georgia, AJC analysis finds" -- statistical analysis shows a decline in voter turnout as voters' distance to their polling location increases. And a wave of precinct closings disproportionately affected people of color. By Mark Niesse and Nick Thieme. Story: [https://www.ajc.com/news/state--regional-govt--politics/precinct-closures-harm-voter-turnout-georgia-ajc-analysis-finds/11sVcLyQCHuQRC8qtZ6lYP/](https://www.ajc.com/news/state--regional-govt--politics/precinct-closures-harm-voter-turnout-georgia-ajc-analysis-finds/11sVcLyQCHuQRC8qtZ6lYP/). GitHub repo with R code and data: [https://github.com/nthieme/voter_deserts/blob/master/Voter_deserts_final.ipynb](https://githu.b.com/nthieme/voter_deserts/blob/master/Voter_deserts_final.ipynb)
+
 “How the Suburbs Will Swing the Midterm Election” – analysis of Congressional District leanings based on population density, by David Montgomery and Richard Florida for CityLab. Includes interactive Shiny app. Story: [https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/](https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/). GitHub repo with R code and data: [https://github.com/theatlantic/citylab-data/tree/master/citylab-congress](https://github.com/theatlantic/citylab-data/tree/master/citylab-congres)
 
 “How safe are Maryland’s bridges?” – front-page story in the Baltimore Sun finds hundreds are in ‘poor’ condition, many are structurally deficient. Story: [http://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html](http://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html). GitHub repo with code and data: [https://github.com/baltimore-sun-data/bridge-data](https://github.com/baltimore-sun-data/bridge-data)
@@ -110,4 +112,4 @@ Story: [https://www.latimes.com/local/lanow/la-me-lapd-searches-20190605-story.h
 
 The GitHub repo for this analysis has both R and Python code, including scripts for data prep and a Jupyter notebook for some of the analysis. Notebook on GitHub:  [https://github.com/datadesk/ripa-analysis/blob/master/Threshold%20Test%20with%20Hierarchy.ipynb](https://github.com/datadesk/ripa-analysis/blob/master/Threshold%20Test%20with%20Hierarchy.ipyn)
 
-_Last updated November 10, 2019_
+_Last updated December 14, 2019_
