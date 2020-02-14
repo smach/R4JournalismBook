@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -1406,6 +1405,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -1434,6 +1434,12 @@ summary {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -1579,6 +1585,8 @@ div.tocify {
 <p><strong>Text analysis</strong></p>
 <p>Text Mining With R – Abbreviated free online version of the Text Mining with R book by Julia Silge and David Robinson, authors of the <a href="https://cran.r-project.org/web/packages/tidytext/index.html">tidytext R package</a>. <a href="https://www.tidytextmining.com/">https://www.tidytextmining.com/</a></p>
 <p>Text as Data - open-source version of a class offered by Chris Bail, professor of Sociology, Public Policy, And Data Science at Duke University. <a href="https://cbail.github.io/textasdata/">https://cbail.github.io/textasdata/</a></p>
+<p><strong>Machine Learning</strong></p>
+<p>Machine Learning Techniques for Investigative Journalism: Tutorial by Ben Heubi, who has worked at the Financial Times and Economist. Examples include what demographic factors were most predictive in the UK Brexit vote and which variables are most predictive of ozone levels. With R code. <a href="https://medium.com/@techjournalism/machine-learning-techniques-for-investigative-reporting-344d74f69f84">https://medium.com/<span class="citation">@techjournalism/machine-learning-techniques-for-investigative-reporting-344d74f69f84</span></a></p>
 </div>
 <div id="more-stories-done-with-r" class="section level3">
 <h3>17.5 More stories done with R</h3>
@@ -1595,7 +1603,7 @@ div.tocify {
 <p><strong>“LAPD searches blacks and Latinos more. But they’re less likely to have contraband than whites”</strong> – “A black person in a vehicle was more than four times as likely to be searched by police as a white person, and a Latino was three times as likely,” according to the LA Times analysis. “Yet whites were found with drugs, weapons or other contraband in 20% of searches, compared with 17% for blacks and 16% for Latinos.”</p>
 <p>Story: <a href="https://www.latimes.com/local/lanow/la-me-lapd-searches-20190605-story.html">https://www.latimes.com/local/lanow/la-me-lapd-searches-20190605-story.html</a></p>
 <p>The GitHub repo for this analysis has both R and Python code, including scripts for data prep and a Jupyter notebook for some of the analysis. Notebook on GitHub: <a href="https://github.com/datadesk/ripa-analysis/blob/master/Threshold%20Test%20with%20Hierarchy.ipyn">https://github.com/datadesk/ripa-analysis/blob/master/Threshold%20Test%20with%20Hierarchy.ipynb</a></p>
-<p><em>Last updated December 14, 2019</em></p>
+<p><em>Last updated February 14, 2020</em></p>
 </div>
 </div>
 

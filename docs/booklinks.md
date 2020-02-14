@@ -380,4 +380,9 @@ Text Mining With R -- Abbreviated free online version of the Text Mining with R 
 
 Text as Data - open-source version of a class offered by Chris Bail, professor of Sociology, Public Policy, And Data Science at Duke University. [https://cbail.github.io/textasdata/](https://cbail.github.io/textasdata/)
 
-_Last updated December 14, 2019_
+**Machine Learning**
+
+Machine Learning Techniques for Investigative Journalism: Tutorial by Ben Heubi, who has worked at the Financial Times and Economist. Examples include what demographic factors were most predictive in the UK Brexit vote and which variables are most predictive of ozone levels. With R code. 
+[https://medium.com/@techjournalism/machine-learning-techniques-for-investigative-reporting-344d74f69f84](https://medium.com/@techjournalism/machine-learning-techniques-for-investigative-reporting-344d74f69f84)
+
+_Last updated February 14, 2020_
