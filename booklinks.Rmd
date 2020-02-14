@@ -385,9 +385,17 @@ Text Mining With R -- Abbreviated free online version of the Text Mining with R 
 
 Text as Data - open-source version of a class offered by Chris Bail, professor of Sociology, Public Policy, And Data Science at Duke University. [https://cbail.github.io/textasdata/](https://cbail.github.io/textasdata/)
 
+**Mapping and GIS**
+
+Get slides and R code from Zev Ross's RStudio Conference 2020 Modern Geospatial Data Analysis with R here: 
+[https://github.com/rstudio-conf-2020/geospatial/tree/master/materials](https://github.com/rstudio-conf-2020/geospatial/tree/master/materials) 
+That page includes instructions for viewing and downloading slides as well as installing the workshop package with R code.
+
 **Machine Learning**
 
 Machine Learning Techniques for Investigative Journalism: Tutorial by Ben Heubi, who has worked at the Financial Times and Economist. Examples include what demographic factors were most predictive in the UK Brexit vote and which variables are most predictive of ozone levels. With R code. 
 [https://medium.com/@techjournalism/machine-learning-techniques-for-investigative-reporting-344d74f69f84](https://medium.com/@techjournalism/machine-learning-techniques-for-investigative-reporting-344d74f69f84)
+
+Julia Silge is posting some great videos on machine learning with the tidymodels package ecosystem, such as with NFL attendance data [https://youtu.be/LPptRkGoYMg](https://youtu.be/LPptRkGoYMg) and hotel bookings data [https://youtu.be/dbXDkEEuvCU](https://youtu.be/dbXDkEEuvCU). Her YouTube channel is here: [https://www.youtube.com/channel/UCTTBgWyJl2HrrhQOOc710kA](https://www.youtube.com/channel/UCTTBgWyJl2HrrhQOOc710kA)
 
 _Last updated `r format(Sys.Date(), format="%B %d, %Y")`_
