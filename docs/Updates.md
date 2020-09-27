@@ -95,7 +95,6 @@ Machine Learning Techniques for Investigative Journalism: Tutorial by Ben Heubi,
 
 Julia Silge is posting some great videos on machine learning with the tidymodels package ecosystem, such as with NFL attendance data [https://youtu.be/LPptRkGoYMg](https://youtu.be/LPptRkGoYMg) and hotel bookings data [https://youtu.be/dbXDkEEuvCU](https://youtu.be/dbXDkEEuvCU). Her YouTube channel is here: [https://www.youtube.com/channel/UCTTBgWyJl2HrrhQOOc710kA](https://www.youtube.com/channel/UCTTBgWyJl2HrrhQOOc710kA)
 
-<a name="stories"></a>
 ### 17.5 More stories done with R
 
 "COVID-19 Never Came Under Control In The US. It Just Shifted From Place To Place." -- analysis of how hot spots moved around the US, with animated maps. By Peter Aldhous at Buzzfeed News. Story: [https://www.buzzfeednews.com/article/peteraldhous/us-coronavirus-patchwork-pandemic-maps](https://www.buzzfeednews.com/article/peteraldhous/us-coronavirus-patchwork-pandemic-maps). R code: [https://buzzfeednews.github.io/2020-09-patchwork-pandemic/](https://buzzfeednews.github.io/2020-09-patchwork-pandemic/).
