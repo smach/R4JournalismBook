@@ -82,12 +82,22 @@ Text Mining With R -- Abbreviated free online version of the Text Mining with R 
 
 Text as Data - open-source version of a class offered by Chris Bail, professor of Sociology, Public Policy, And Data Science at Duke University. [https://cbail.github.io/textasdata/](https://cbail.github.io/textasdata/)
 
+**Mapping and GIS**
+
+Get slides and R code from Zev Ross's RStudio Conference 2020 Modern Geospatial Data Analysis with R here: 
+[https://github.com/rstudio-conf-2020/geospatial/tree/master/materials](https://github.com/rstudio-conf-2020/geospatial/tree/master/materials) 
+That page includes instructions for viewing and downloading slides as well as installing the workshop package with R code.
+
 **Machine Learning**
 
 Machine Learning Techniques for Investigative Journalism: Tutorial by Ben Heubi, who has worked at the Financial Times and Economist. Examples include what demographic factors were most predictive in the UK Brexit vote and which variables are most predictive of ozone levels. With R code. 
 [https://medium.com/@techjournalism/machine-learning-techniques-for-investigative-reporting-344d74f69f84](https://medium.com/@techjournalism/machine-learning-techniques-for-investigative-reporting-344d74f69f84)
 
+Julia Silge is posting some great videos on machine learning with the tidymodels package ecosystem, such as with NFL attendance data [https://youtu.be/LPptRkGoYMg](https://youtu.be/LPptRkGoYMg) and hotel bookings data [https://youtu.be/dbXDkEEuvCU](https://youtu.be/dbXDkEEuvCU). Her YouTube channel is here: [https://www.youtube.com/channel/UCTTBgWyJl2HrrhQOOc710kA](https://www.youtube.com/channel/UCTTBgWyJl2HrrhQOOc710kA)
+
 ### 17.5 More stories done with R
+
+"COVID-19 Never Came Under Control In The US. It Just Shifted From Place To Place." -- analysis of how hot spots moved around the US, with animated maps. By Peter Aldhous at Buzzfeed News. Story: [https://www.buzzfeednews.com/article/peteraldhous/us-coronavirus-patchwork-pandemic-maps](https://www.buzzfeednews.com/article/peteraldhous/us-coronavirus-patchwork-pandemic-maps). R code: [https://buzzfeednews.github.io/2020-09-patchwork-pandemic/](https://buzzfeednews.github.io/2020-09-patchwork-pandemic/).
 
 "Precinct closures harm voter turnout in Georgia, AJC analysis finds" -- statistical analysis shows a decline in voter turnout as voters' distance to their polling location increases. And a wave of precinct closings disproportionately affected people of color. By Mark Niesse and Nick Thieme. Story: [https://www.ajc.com/news/state--regional-govt--politics/precinct-closures-harm-voter-turnout-georgia-ajc-analysis-finds/11sVcLyQCHuQRC8qtZ6lYP/](https://www.ajc.com/news/state--regional-govt--politics/precinct-closures-harm-voter-turnout-georgia-ajc-analysis-finds/11sVcLyQCHuQRC8qtZ6lYP/). GitHub repo with R code and data: [https://github.com/nthieme/voter_deserts/blob/master/Voter_deserts_final.ipynb](https://githu.b.com/nthieme/voter_deserts/blob/master/Voter_deserts_final.ipynb)
 
@@ -117,4 +127,4 @@ Story: [https://www.latimes.com/local/lanow/la-me-lapd-searches-20190605-story.h
 
 The GitHub repo for this analysis has both R and Python code, including scripts for data prep and a Jupyter notebook for some of the analysis. Notebook on GitHub:  [https://github.com/datadesk/ripa-analysis/blob/master/Threshold%20Test%20with%20Hierarchy.ipynb](https://github.com/datadesk/ripa-analysis/blob/master/Threshold%20Test%20with%20Hierarchy.ipyn)
 
-_Last updated February 14, 2020_
+_Last updated September 27, 2020_
