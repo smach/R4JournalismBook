@@ -12,6 +12,8 @@ You can read sample chapters at [http://www.machlis.com/R4Journalists/](http://w
 
 The book's GitHub repo (permalink at [https://github.com/smach/R4JournalismBook](https://github.com/smach/R4JournalismBook)) features companion data files the book, as well as [links to additional data and resources](https://smach.github.io/R4JournalismBook/booklinks.html). 
 
+Note that to make language in this repository more inclusive, I changed the name of the main branch of the repo from "master" to "main". Please change any file URL references that include "master" to use "main" instead.
+
 You can also see a searchable chart of [tasks covered in the book](HowDoI.html), [functions covered](https://smach.github.io/R4JournalismBook/functions.html), and [packages](https://smach.github.io/R4JournalismBook/packages.html) used.
 
 Thanks for your interest!
