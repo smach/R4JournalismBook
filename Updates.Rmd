@@ -40,6 +40,10 @@ After submitting the manuscript to my publisher, Wikipedia changed the format of
 
 ## Chapter 5: Basic Data Exploration
 
+In order to make the naming of directories and files more inclusive, I have followed the lead of others in the open-source community and renamed my "master" branch to "main". If you are trying to download the files with the usethis package, please use the code
+
+`usethis::use_course("https://github.com/smach/R4JournalismBook/archive/main.zip", "your/dir/path")`
+
 ### Additional resources
 
 Discovered after publication: The DataExplorer R package, which generates an HTML report about a data frame with a single line of code.  [https://boxuancui.github.io/DataExplorer/](https://boxuancui.github.io/DataExplorer/).
