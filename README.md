@@ -16,3 +16,5 @@ You can also see a searchable chart of [tasks covered in the book](HowDoI.html),
 
 Thanks for your interest!
 
+You can find me on Twitter at [\@sharon000]() and Mastodon at<a rel="me" href="https://fosstodon.org/@smach">\@smach\@fosstodon.org</a>
+
