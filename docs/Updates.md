@@ -6,6 +6,18 @@ author: Sharon Machlis
 
 Additions and corrections for Practical R for Mass Communication and Journalism since publication in December 2018. To suggest an update or correction, please [open an issue in this book's GitHub repository](https://github.com/smach/R4JournalismBook/issues)
 
+## Chapter 2
+
+### 2.11 Additional resources
+
+The Computerworld Beginner's Guide to R is now at [https://www.computerworld.com/article/1533880/beginners-guide-to-r-introduction.html](https://www.computerworld.com/article/1533880/beginners-guide-to-r-introduction.html).
+
+RStudio IDE Easy Tricks you Might’ve Missed is now at [https://rviews.rstudio.com/2016/11/11/easy-tricks-you-mightve-missed/](https://rviews.rstudio.com/2016/11/11/easy-tricks-you-mightve-missed/), although it's a bit dated.
+
+The RStudio community link will redirect you to the company's new forum at [https://forum.posit.co/](https://forum.posit.co/). RStudio the software is still called RStudio, but the company behind it is now named Posit to reflect its broader mission to create software for data scientists including the Python as well as R ecosystems.
+
+Generative AI chatbots such as [ChatGPT](https://www.chatgpt.com) or AI-powered search engines like [Perplexity](https://perplexity.ai] are another new option for getting help with coding questions.ChatGPT is especially good at explaining code you find elsewhere but don't understand. However, I find that ChatGPT R code doesn't always work, and it can be hard for people brand new to R to figure out how to debug it.
+
 ## Chapter 3
 
 ### 3.4 Download and graph a city's median income
