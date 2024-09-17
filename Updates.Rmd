@@ -64,6 +64,10 @@ DataCamp is suggested as an additional resource. However, readers may want to kn
 
 ## Chapter 11: Maps in R
 
+The tigris package is now on CRAN and can be installed with install.packages("tigris").
+
+In section 11.4, use the sf package's newer `st_read()` function as suggested at the bottom of page 127 instead of the `read_shape()` mentioned earlier on the page.
+
 In section 11.11, `ggmap::geocode()` no longer works without a Google Maps API key. That's due to a change in Google policy. Running `?register_google` in the R console gives information on how to obtain and register a key. While Google allows some free usage of its geocoding service, you will need to register a credit card in a Google account even if you don't exceed the free usage tier.
 
 ### Additional resources
